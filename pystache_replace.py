@@ -28,11 +28,11 @@ parameters = {"kappas" : [{"kappa" : 0.12104}
                              , {"fh-params" : [{"q" : ["2","0","0"]},
                                                {"q" : ["-2","0","0"]}]
                                 , "mom2max" : "1"}]
-              , "operators" : [{"op" : [{"opval" : "2", "lam_real" : "0.0001", "lam_imag" : "0"},
-                                        {"opval" : "8", "lam_real" : "0", "lam_imag" : "0"}]
+              , "operators" : [{"op" : {"opval" : "2", "lam_real" : "0.0001", "lam_imag" : "0"}
+#                                        {"opval" : "8", "lam_real" : "0", "lam_imag" : "0"}]
                                 }
-                               , {"op" : [{"opval" : "2", "lam_real" : "0", "lam_imag" : "0"},
-                                          {"opval" : "8", "lam_real" : "0.0001", "lam_imag" : "0"}]
+                               , {"op" : {"opval" : "8", "lam_real" : "0.0001", "lam_imag" : "0"} 
+#                                  {"opval" : "2", "lam_real" : "0", "lam_imag" : "0"}]
                                }
               ]
               , "lambda" :  0.0001

@@ -316,24 +316,6 @@
 		<NoiseReal>1.0</NoiseReal>
 		<NoiseImag>0.0</NoiseImag>
 	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>4 4 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>-4 -4 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
 	    </FeynHellParam>
 	    <clovCoeff>2.65</clovCoeff>
 	    <FermState>
@@ -387,31 +369,13 @@
 		<NoiseReal>1.0</NoiseReal>
 		<NoiseImag>0.0</NoiseImag>
 	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>4 4 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>-4 -4 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
             </FeynHellParam>
           </InvertParam>
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <source_id>sh_source_1</source_id>
-	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40</prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40</prop_id>
 	  <initial_guess_id>prop_0.12104</initial_guess_id>
 	</NamedObject>
       </elem>
@@ -429,24 +393,6 @@
 	    <Kappa>0.12104</Kappa>                    <!-- light mass -->
 	    <FeynHellParam>
 	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>4 4 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>-4 -4 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
 		<LambdaReal>0.0001</LambdaReal>
 		<LambdaImag>0</LambdaImag>
 		<Operator>8</Operator>
@@ -500,24 +446,6 @@
             </CloverParams>
             <FeynHellParam>
 	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>4 4 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>-4 -4 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
 		<LambdaReal>0.0001</LambdaReal>
 		<LambdaImag>0</LambdaImag>
 		<Operator>8</Operator>
@@ -541,7 +469,7 @@
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <source_id>sh_source_1</source_id>
-	  <prop_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40</prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40</prop_id>
 	  <initial_guess_id>prop_0.12104</initial_guess_id>
 	</NamedObject>
       </elem>
@@ -577,24 +505,6 @@
 		<NoiseReal>1.0</NoiseReal>
 		<NoiseImag>0.0</NoiseImag>
 	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>4 4 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>-4 -4 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
 	    </FeynHellParam>
 	    <clovCoeff>2.65</clovCoeff>
 	    <FermState>
@@ -648,31 +558,13 @@
 		<NoiseReal>1.0</NoiseReal>
 		<NoiseImag>0.0</NoiseImag>
 	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>4 4 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>-4 -4 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
             </FeynHellParam>
           </InvertParam>
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <source_id>sh_source_1</source_id>
-	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40</prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_440_0.0001_g2_-4-40</prop_id>
 	  <initial_guess_id>prop_0.12062</initial_guess_id>
 	</NamedObject>
       </elem>
@@ -690,24 +582,6 @@
 	    <Kappa>0.12062</Kappa>                    <!-- light mass -->
 	    <FeynHellParam>
 	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>4 4 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>-4 -4 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
 		<LambdaReal>0.0001</LambdaReal>
 		<LambdaImag>0</LambdaImag>
 		<Operator>8</Operator>
@@ -761,24 +635,6 @@
             </CloverParams>
             <FeynHellParam>
 	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>4 4 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>-4 -4 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
 		<LambdaReal>0.0001</LambdaReal>
 		<LambdaImag>0</LambdaImag>
 		<Operator>8</Operator>
@@ -802,7 +658,7 @@
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <source_id>sh_source_1</source_id>
-	  <prop_id>fh_fh_prop_0.12062_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40</prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g8_440_0.0001_g8_-4-40</prop_id>
 	  <initial_guess_id>prop_0.12062</initial_guess_id>
 	</NamedObject>
       </elem>
@@ -826,8 +682,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -853,8 +709,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_30</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_30</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -880,8 +736,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_60</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_60</smeared_prop_id>
 	</NamedObject>
       </elem>
       
@@ -902,8 +758,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -929,8 +785,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_30</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_30</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -956,8 +812,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_60</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_60</smeared_prop_id>
 	</NamedObject>
       </elem>
       
@@ -979,8 +835,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_440_0.0001_g2_-4-40</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -1006,8 +862,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_30</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_440_0.0001_g2_-4-40</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_30</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -1033,8 +889,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_60</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_440_0.0001_g2_-4-40</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_60</smeared_prop_id>
 	</NamedObject>
       </elem>
       
@@ -1055,8 +911,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12062_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12062_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g8_440_0.0001_g8_-4-40</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -1082,8 +938,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12062_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12062_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_30</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g8_440_0.0001_g8_-4-40</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_30</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -1109,8 +965,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12062_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12062_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_60</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g8_440_0.0001_g8_-4-40</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_60</smeared_prop_id>
 	</NamedObject>
       </elem>
       
@@ -1120,28 +976,28 @@
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g2_440_0.0001_g2_-4-40</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g8_440_0.0001_g8_-4-40</object_id>
         </NamedObject>
       </elem>
 
@@ -1175,53 +1031,53 @@
 	    </elem>
 	    
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink</first_id>
 	      <second_id>prop_0.12062_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink</first_id>
 	      <second_id>prop_0.12062_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12062_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12062_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink</second_id>
 	    </elem>
 
 	    <elem>
@@ -1238,53 +1094,53 @@
 	    </elem>
 	    
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_30</first_id>
 	      <second_id>prop_0.12062_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_30</first_id>
 	      <second_id>prop_0.12062_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12062_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12062_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_30</second_id>
 	    </elem>
 
 	    <elem>
@@ -1301,53 +1157,53 @@
 	    </elem>
 	    
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_60</first_id>
 	      <second_id>prop_0.12062_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_60</first_id>
 	      <second_id>prop_0.12062_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12062_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12062_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_60</second_id>
 	    </elem>
 
 
@@ -1387,53 +1243,53 @@
 	    </elem>
 
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink</first_id>
 	      <second_id>prop_0.12062_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink</first_id>
 	      <second_id>prop_0.12062_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12062_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12062_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink</second_id>
 	    </elem>
 
 	    <elem>
@@ -1450,53 +1306,53 @@
 	    </elem>
 
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_30</first_id>
 	      <second_id>prop_0.12062_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_30</first_id>
 	      <second_id>prop_0.12062_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12062_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12062_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_30</second_id>
 	    </elem>
 
 	    <elem>
@@ -1513,53 +1369,53 @@
 	    </elem>
 
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_60</first_id>
 	      <second_id>prop_0.12062_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_60</first_id>
 	      <second_id>prop_0.12062_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12062_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12062_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_60</second_id>
 	    </elem>
 
 
@@ -1573,84 +1429,84 @@
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_30</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_30</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_30</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_30</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_30</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_30</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_30</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_30</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_60</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_60</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_60</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_60</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_60</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g2_440_0.0001_g2_-4-40_smeared_sink_60</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40_smeared_sink_60</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g8_440_0.0001_g8_-4-40_smeared_sink_60</object_id>
         </NamedObject>
       </elem>
 
@@ -1687,24 +1543,6 @@
 		<NoiseReal>1.0</NoiseReal>
 		<NoiseImag>0.0</NoiseImag>
 	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>4 2 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>-4 -2 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
 	    </FeynHellParam>
 	    <clovCoeff>2.65</clovCoeff>
 	    <FermState>
@@ -1758,31 +1596,13 @@
 		<NoiseReal>1.0</NoiseReal>
 		<NoiseImag>0.0</NoiseImag>
 	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>4 2 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>-4 -2 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
             </FeynHellParam>
           </InvertParam>
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <source_id>sh_source_1</source_id>
-	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20</prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20</prop_id>
 	  <initial_guess_id>prop_0.12104</initial_guess_id>
 	</NamedObject>
       </elem>
@@ -1800,24 +1620,6 @@
 	    <Kappa>0.12104</Kappa>                    <!-- light mass -->
 	    <FeynHellParam>
 	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>4 2 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>-4 -2 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
 		<LambdaReal>0.0001</LambdaReal>
 		<LambdaImag>0</LambdaImag>
 		<Operator>8</Operator>
@@ -1871,24 +1673,6 @@
             </CloverParams>
             <FeynHellParam>
 	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>4 2 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>-4 -2 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
 		<LambdaReal>0.0001</LambdaReal>
 		<LambdaImag>0</LambdaImag>
 		<Operator>8</Operator>
@@ -1912,7 +1696,7 @@
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <source_id>sh_source_1</source_id>
-	  <prop_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20</prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20</prop_id>
 	  <initial_guess_id>prop_0.12104</initial_guess_id>
 	</NamedObject>
       </elem>
@@ -1948,24 +1732,6 @@
 		<NoiseReal>1.0</NoiseReal>
 		<NoiseImag>0.0</NoiseImag>
 	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>4 2 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>-4 -2 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
 	    </FeynHellParam>
 	    <clovCoeff>2.65</clovCoeff>
 	    <FermState>
@@ -2019,31 +1785,13 @@
 		<NoiseReal>1.0</NoiseReal>
 		<NoiseImag>0.0</NoiseImag>
 	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>4 2 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>-4 -2 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
             </FeynHellParam>
           </InvertParam>
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <source_id>sh_source_1</source_id>
-	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20</prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_420_0.0001_g2_-4-20</prop_id>
 	  <initial_guess_id>prop_0.12062</initial_guess_id>
 	</NamedObject>
       </elem>
@@ -2061,24 +1809,6 @@
 	    <Kappa>0.12062</Kappa>                    <!-- light mass -->
 	    <FeynHellParam>
 	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>4 2 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>-4 -2 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
 		<LambdaReal>0.0001</LambdaReal>
 		<LambdaImag>0</LambdaImag>
 		<Operator>8</Operator>
@@ -2132,24 +1862,6 @@
             </CloverParams>
             <FeynHellParam>
 	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>4 2 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>-4 -2 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
 		<LambdaReal>0.0001</LambdaReal>
 		<LambdaImag>0</LambdaImag>
 		<Operator>8</Operator>
@@ -2173,7 +1885,7 @@
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <source_id>sh_source_1</source_id>
-	  <prop_id>fh_fh_prop_0.12062_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20</prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g8_420_0.0001_g8_-4-20</prop_id>
 	  <initial_guess_id>prop_0.12062</initial_guess_id>
 	</NamedObject>
       </elem>
@@ -2197,8 +1909,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -2224,8 +1936,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_30</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_30</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -2251,8 +1963,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_60</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_60</smeared_prop_id>
 	</NamedObject>
       </elem>
       
@@ -2273,8 +1985,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -2300,8 +2012,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_30</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_30</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -2327,8 +2039,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_60</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_60</smeared_prop_id>
 	</NamedObject>
       </elem>
       
@@ -2350,8 +2062,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_420_0.0001_g2_-4-20</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -2377,8 +2089,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_30</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_420_0.0001_g2_-4-20</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_30</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -2404,8 +2116,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_60</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_420_0.0001_g2_-4-20</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_60</smeared_prop_id>
 	</NamedObject>
       </elem>
       
@@ -2426,8 +2138,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12062_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12062_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g8_420_0.0001_g8_-4-20</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -2453,8 +2165,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12062_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12062_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_30</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g8_420_0.0001_g8_-4-20</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_30</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -2480,8 +2192,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12062_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12062_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_60</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g8_420_0.0001_g8_-4-20</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_60</smeared_prop_id>
 	</NamedObject>
       </elem>
       
@@ -2491,28 +2203,28 @@
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g2_420_0.0001_g2_-4-20</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g8_420_0.0001_g8_-4-20</object_id>
         </NamedObject>
       </elem>
 
@@ -2534,155 +2246,155 @@
 	    
 	    
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink</first_id>
 	      <second_id>prop_0.12062_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink</first_id>
 	      <second_id>prop_0.12062_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12062_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12062_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink</second_id>
 	    </elem>
 
 	    
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_30</first_id>
 	      <second_id>prop_0.12062_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_30</first_id>
 	      <second_id>prop_0.12062_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12062_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12062_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_30</second_id>
 	    </elem>
 
 	    
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_60</first_id>
 	      <second_id>prop_0.12062_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_60</first_id>
 	      <second_id>prop_0.12062_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12062_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12062_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_60</second_id>
 	    </elem>
 
 
@@ -2710,155 +2422,155 @@
 
 
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink</first_id>
 	      <second_id>prop_0.12062_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink</first_id>
 	      <second_id>prop_0.12062_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12062_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12062_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink</second_id>
 	    </elem>
 
 
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_30</first_id>
 	      <second_id>prop_0.12062_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_30</first_id>
 	      <second_id>prop_0.12062_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12062_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12062_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_30</second_id>
 	    </elem>
 
 
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_60</first_id>
 	      <second_id>prop_0.12062_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_60</first_id>
 	      <second_id>prop_0.12062_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12062_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12062_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_60</second_id>
 	    </elem>
 
 
@@ -2872,84 +2584,84 @@
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_30</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_30</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_30</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_30</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_30</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_30</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_30</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_30</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_60</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_60</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_60</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_60</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_60</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g2_420_0.0001_g2_-4-20_smeared_sink_60</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_60</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g8_420_0.0001_g8_-4-20_smeared_sink_60</object_id>
         </NamedObject>
       </elem>
 
@@ -2986,24 +2698,6 @@
 		<NoiseReal>1.0</NoiseReal>
 		<NoiseImag>0.0</NoiseImag>
 	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>2 2 2 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>-2 -2 -2 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
 	    </FeynHellParam>
 	    <clovCoeff>2.65</clovCoeff>
 	    <FermState>
@@ -3057,31 +2751,13 @@
 		<NoiseReal>1.0</NoiseReal>
 		<NoiseImag>0.0</NoiseImag>
 	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>2 2 2 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>-2 -2 -2 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
             </FeynHellParam>
           </InvertParam>
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <source_id>sh_source_1</source_id>
-	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2</prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2</prop_id>
 	  <initial_guess_id>prop_0.12104</initial_guess_id>
 	</NamedObject>
       </elem>
@@ -3099,24 +2775,6 @@
 	    <Kappa>0.12104</Kappa>                    <!-- light mass -->
 	    <FeynHellParam>
 	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>2 2 2 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>-2 -2 -2 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
 		<LambdaReal>0.0001</LambdaReal>
 		<LambdaImag>0</LambdaImag>
 		<Operator>8</Operator>
@@ -3170,24 +2828,6 @@
             </CloverParams>
             <FeynHellParam>
 	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>2 2 2 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>-2 -2 -2 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
 		<LambdaReal>0.0001</LambdaReal>
 		<LambdaImag>0</LambdaImag>
 		<Operator>8</Operator>
@@ -3211,7 +2851,7 @@
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <source_id>sh_source_1</source_id>
-	  <prop_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2</prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2</prop_id>
 	  <initial_guess_id>prop_0.12104</initial_guess_id>
 	</NamedObject>
       </elem>
@@ -3247,24 +2887,6 @@
 		<NoiseReal>1.0</NoiseReal>
 		<NoiseImag>0.0</NoiseImag>
 	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>2 2 2 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>-2 -2 -2 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
 	    </FeynHellParam>
 	    <clovCoeff>2.65</clovCoeff>
 	    <FermState>
@@ -3318,31 +2940,13 @@
 		<NoiseReal>1.0</NoiseReal>
 		<NoiseImag>0.0</NoiseImag>
 	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>2 2 2 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>-2 -2 -2 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
             </FeynHellParam>
           </InvertParam>
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <source_id>sh_source_1</source_id>
-	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2</prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_222_0.0001_g2_-2-2-2</prop_id>
 	  <initial_guess_id>prop_0.12062</initial_guess_id>
 	</NamedObject>
       </elem>
@@ -3360,24 +2964,6 @@
 	    <Kappa>0.12062</Kappa>                    <!-- light mass -->
 	    <FeynHellParam>
 	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>2 2 2 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>-2 -2 -2 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
 		<LambdaReal>0.0001</LambdaReal>
 		<LambdaImag>0</LambdaImag>
 		<Operator>8</Operator>
@@ -3431,24 +3017,6 @@
             </CloverParams>
             <FeynHellParam>
 	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>2 2 2 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>-2 -2 -2 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
 		<LambdaReal>0.0001</LambdaReal>
 		<LambdaImag>0</LambdaImag>
 		<Operator>8</Operator>
@@ -3472,7 +3040,7 @@
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <source_id>sh_source_1</source_id>
-	  <prop_id>fh_fh_prop_0.12062_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2</prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g8_222_0.0001_g8_-2-2-2</prop_id>
 	  <initial_guess_id>prop_0.12062</initial_guess_id>
 	</NamedObject>
       </elem>
@@ -3496,8 +3064,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -3523,8 +3091,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_30</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_30</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -3550,8 +3118,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_60</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_60</smeared_prop_id>
 	</NamedObject>
       </elem>
       
@@ -3572,8 +3140,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -3599,8 +3167,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_30</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_30</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -3626,8 +3194,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_60</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_60</smeared_prop_id>
 	</NamedObject>
       </elem>
       
@@ -3649,8 +3217,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_222_0.0001_g2_-2-2-2</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -3676,8 +3244,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_30</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_222_0.0001_g2_-2-2-2</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_30</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -3703,8 +3271,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_60</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_222_0.0001_g2_-2-2-2</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_60</smeared_prop_id>
 	</NamedObject>
       </elem>
       
@@ -3725,8 +3293,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12062_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12062_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g8_222_0.0001_g8_-2-2-2</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -3752,8 +3320,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12062_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12062_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_30</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g8_222_0.0001_g8_-2-2-2</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_30</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -3779,8 +3347,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12062_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12062_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_60</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g8_222_0.0001_g8_-2-2-2</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_60</smeared_prop_id>
 	</NamedObject>
       </elem>
       
@@ -3790,28 +3358,28 @@
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g2_222_0.0001_g2_-2-2-2</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g8_222_0.0001_g8_-2-2-2</object_id>
         </NamedObject>
       </elem>
 
@@ -3833,155 +3401,155 @@
 	    
 	    
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink</first_id>
 	      <second_id>prop_0.12062_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink</first_id>
 	      <second_id>prop_0.12062_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12062_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12062_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink</second_id>
 	    </elem>
 
 	    
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_30</first_id>
 	      <second_id>prop_0.12062_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_30</first_id>
 	      <second_id>prop_0.12062_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12062_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12062_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_30</second_id>
 	    </elem>
 
 	    
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_60</first_id>
 	      <second_id>prop_0.12062_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_60</first_id>
 	      <second_id>prop_0.12062_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12062_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12062_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_60</second_id>
 	    </elem>
 
 
@@ -4009,155 +3577,155 @@
 
 
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink</first_id>
 	      <second_id>prop_0.12062_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink</first_id>
 	      <second_id>prop_0.12062_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12062_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12062_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink</second_id>
 	    </elem>
 
 
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_30</first_id>
 	      <second_id>prop_0.12062_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_30</first_id>
 	      <second_id>prop_0.12062_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12062_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12062_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_30</second_id>
 	    </elem>
 
 
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_60</first_id>
 	      <second_id>prop_0.12062_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_60</first_id>
 	      <second_id>prop_0.12062_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12062_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12062_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_60</second_id>
 	    </elem>
 
 
@@ -4171,84 +3739,84 @@
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_30</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_30</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_30</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_30</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_30</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_30</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_30</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_30</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_60</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_60</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_60</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_60</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_60</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g2_222_0.0001_g2_-2-2-2_smeared_sink_60</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_60</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g8_222_0.0001_g8_-2-2-2_smeared_sink_60</object_id>
         </NamedObject>
       </elem>
 
@@ -4285,24 +3853,6 @@
 		<NoiseReal>1.0</NoiseReal>
 		<NoiseImag>0.0</NoiseImag>
 	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>2 0 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>-2 0 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
 	    </FeynHellParam>
 	    <clovCoeff>2.65</clovCoeff>
 	    <FermState>
@@ -4356,31 +3906,13 @@
 		<NoiseReal>1.0</NoiseReal>
 		<NoiseImag>0.0</NoiseImag>
 	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>2 0 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>-2 0 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
             </FeynHellParam>
           </InvertParam>
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <source_id>sh_source_1</source_id>
-	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200</prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200</prop_id>
 	  <initial_guess_id>prop_0.12104</initial_guess_id>
 	</NamedObject>
       </elem>
@@ -4398,24 +3930,6 @@
 	    <Kappa>0.12104</Kappa>                    <!-- light mass -->
 	    <FeynHellParam>
 	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>2 0 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>-2 0 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
 		<LambdaReal>0.0001</LambdaReal>
 		<LambdaImag>0</LambdaImag>
 		<Operator>8</Operator>
@@ -4469,24 +3983,6 @@
             </CloverParams>
             <FeynHellParam>
 	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>2 0 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>-2 0 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
 		<LambdaReal>0.0001</LambdaReal>
 		<LambdaImag>0</LambdaImag>
 		<Operator>8</Operator>
@@ -4510,7 +4006,7 @@
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <source_id>sh_source_1</source_id>
-	  <prop_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200</prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200</prop_id>
 	  <initial_guess_id>prop_0.12104</initial_guess_id>
 	</NamedObject>
       </elem>
@@ -4546,24 +4042,6 @@
 		<NoiseReal>1.0</NoiseReal>
 		<NoiseImag>0.0</NoiseImag>
 	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>2 0 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>-2 0 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
 	    </FeynHellParam>
 	    <clovCoeff>2.65</clovCoeff>
 	    <FermState>
@@ -4617,31 +4095,13 @@
 		<NoiseReal>1.0</NoiseReal>
 		<NoiseImag>0.0</NoiseImag>
 	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>2 0 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>8</Operator>
-		<Momentum>-2 0 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
             </FeynHellParam>
           </InvertParam>
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <source_id>sh_source_1</source_id>
-	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200</prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_200_0.0001_g2_-200</prop_id>
 	  <initial_guess_id>prop_0.12062</initial_guess_id>
 	</NamedObject>
       </elem>
@@ -4659,24 +4119,6 @@
 	    <Kappa>0.12062</Kappa>                    <!-- light mass -->
 	    <FeynHellParam>
 	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>2 0 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>-2 0 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
 		<LambdaReal>0.0001</LambdaReal>
 		<LambdaImag>0</LambdaImag>
 		<Operator>8</Operator>
@@ -4730,24 +4172,6 @@
             </CloverParams>
             <FeynHellParam>
 	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>2 0 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
-		<LambdaReal>0</LambdaReal>
-		<LambdaImag>0</LambdaImag>
-		<Operator>2</Operator>
-		<Momentum>-2 0 0 </Momentum>
-		<Source>{{SX}} {{SY}} {{SZ}} {{ST}}</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      <elem>
 		<LambdaReal>0.0001</LambdaReal>
 		<LambdaImag>0</LambdaImag>
 		<Operator>8</Operator>
@@ -4771,7 +4195,7 @@
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <source_id>sh_source_1</source_id>
-	  <prop_id>fh_fh_prop_0.12062_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200</prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g8_200_0.0001_g8_-200</prop_id>
 	  <initial_guess_id>prop_0.12062</initial_guess_id>
 	</NamedObject>
       </elem>
@@ -4795,8 +4219,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -4822,8 +4246,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_30</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink_30</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -4849,8 +4273,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_60</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink_60</smeared_prop_id>
 	</NamedObject>
       </elem>
       
@@ -4871,8 +4295,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -4898,8 +4322,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_30</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink_30</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -4925,8 +4349,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_60</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink_60</smeared_prop_id>
 	</NamedObject>
       </elem>
       
@@ -4948,8 +4372,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_200_0.0001_g2_-200</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g2_200_0.0001_g2_-200_smeared_sink</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -4975,8 +4399,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_30</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_200_0.0001_g2_-200</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g2_200_0.0001_g2_-200_smeared_sink_30</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -5002,8 +4426,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_60</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_200_0.0001_g2_-200</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g2_200_0.0001_g2_-200_smeared_sink_60</smeared_prop_id>
 	</NamedObject>
       </elem>
       
@@ -5024,8 +4448,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12062_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12062_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g8_200_0.0001_g8_-200</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g8_200_0.0001_g8_-200_smeared_sink</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -5051,8 +4475,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12062_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12062_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_30</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g8_200_0.0001_g8_-200</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g8_200_0.0001_g8_-200_smeared_sink_30</smeared_prop_id>
 	</NamedObject>
       </elem>
       <elem>
@@ -5078,8 +4502,8 @@
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
-	  <prop_id>fh_fh_prop_0.12062_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200</prop_id>
-	  <smeared_prop_id>fh_fh_prop_0.12062_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_60</smeared_prop_id>
+	  <prop_id>fh_fh_prop_0.12062_0.0001_g8_200_0.0001_g8_-200</prop_id>
+	  <smeared_prop_id>fh_fh_prop_0.12062_0.0001_g8_200_0.0001_g8_-200_smeared_sink_60</smeared_prop_id>
 	</NamedObject>
       </elem>
       
@@ -5089,28 +4513,28 @@
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g2_200_0.0001_g2_-200</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g8_200_0.0001_g8_-200</object_id>
         </NamedObject>
       </elem>
 
@@ -5132,155 +4556,155 @@
 	    
 	    
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink</first_id>
 	      <second_id>prop_0.12062_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g2_200_0.0001_g2_-200_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink</first_id>
 	      <second_id>prop_0.12062_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g8_200_0.0001_g8_-200_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12062_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g2_200_0.0001_g2_-200_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12062_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g8_200_0.0001_g8_-200_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink</second_id>
 	    </elem>
 
 	    
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink_30</first_id>
 	      <second_id>prop_0.12062_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g2_200_0.0001_g2_-200_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink_30</first_id>
 	      <second_id>prop_0.12062_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g8_200_0.0001_g8_-200_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12062_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g2_200_0.0001_g2_-200_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12062_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g8_200_0.0001_g8_-200_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink_30</second_id>
 	    </elem>
 
 	    
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink_60</first_id>
 	      <second_id>prop_0.12062_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g2_200_0.0001_g2_-200_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink_60</first_id>
 	      <second_id>prop_0.12062_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g8_200_0.0001_g8_-200_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12062_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g2_200_0.0001_g2_-200_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12062_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g8_200_0.0001_g8_-200_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink_60</second_id>
 	    </elem>
 
 
@@ -5308,155 +4732,155 @@
 
 
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink</first_id>
 	      <second_id>prop_0.12062_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g2_200_0.0001_g2_-200_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink</first_id>
 	      <second_id>prop_0.12062_smeared_sink</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g8_200_0.0001_g8_-200_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
 
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12062_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g2_200_0.0001_g2_-200_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12062_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g8_200_0.0001_g8_-200_smeared_sink</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink</second_id>
 	    </elem>
 
 
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink_30</first_id>
 	      <second_id>prop_0.12062_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g2_200_0.0001_g2_-200_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink_30</first_id>
 	      <second_id>prop_0.12062_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_30</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g8_200_0.0001_g8_-200_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
 
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12062_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g2_200_0.0001_g2_-200_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12062_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g8_200_0.0001_g8_-200_smeared_sink_30</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_30</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_30</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink_30</second_id>
 	    </elem>
 
 
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink_60</first_id>
 	      <second_id>prop_0.12062_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g2_200_0.0001_g2_-200_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink_60</first_id>
 	      <second_id>prop_0.12062_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
-	      <first_id>fh_fh_prop_0.12062_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_60</first_id>
+	      <first_id>fh_fh_prop_0.12062_0.0001_g8_200_0.0001_g8_-200_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
 
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12062_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g2_200_0.0001_g2_-200_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12062_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12062_0.0001_g8_200_0.0001_g8_-200_smeared_sink_60</second_id>
 	    </elem>
 	    <elem>
 	      <first_id>prop_0.12062_smeared_sink_60</first_id>
-	      <second_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_60</second_id>
+	      <second_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink_60</second_id>
 	    </elem>
 
 
@@ -5470,84 +4894,84 @@
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g2_200_0.0001_g2_-200_smeared_sink</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g8_200_0.0001_g8_-200_smeared_sink</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_30</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink_30</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_30</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink_30</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_30</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g2_200_0.0001_g2_-200_smeared_sink_30</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_30</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g8_200_0.0001_g8_-200_smeared_sink_30</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_60</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g2_200_0.0001_g2_-200_smeared_sink_60</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_60</object_id>
+          <object_id>fh_fh_prop_0.12104_0.0001_g8_200_0.0001_g8_-200_smeared_sink_60</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_60</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g2_200_0.0001_g2_-200_smeared_sink_60</object_id>
         </NamedObject>
       </elem>
       <elem>
         <Name>ERASE_NAMED_OBJECT</Name>
         <Frequency>1</Frequency>
         <NamedObject>
-          <object_id>fh_fh_prop_0.12062_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_60</object_id>
+          <object_id>fh_fh_prop_0.12062_0.0001_g8_200_0.0001_g8_-200_smeared_sink_60</object_id>
         </NamedObject>
       </elem>
 
