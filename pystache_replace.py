@@ -17,7 +17,8 @@ parameters = {"kappas" : [{"kappa" : 0.12104}
                                    }]
               , "momenta" : [{"fh-params" : [ {"q" : ["4","4","0"]},
                                               {"q" : ["-4","-4","0"]}]
-                              , "mom2max" : "8"}
+                              , "mom2max" : "8"
+                              , "unperturbed" : "True"}
                              , {"fh-params" : [{"q" : ["4","2","0"]},
                                                {"q" : ["-4","-2","0"]}]
                                 , "mom2max" : "5"}

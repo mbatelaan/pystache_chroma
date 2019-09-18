@@ -171,7 +171,7 @@
             <RsdTarget>1e-12</RsdTarget>
             <Delta>0.01</Delta>
             <CloverParams>
-              <Kappa>0.12104</Kappa>
+              <Kappa>{{kappa}}</Kappa>
               <clovCoeff>2.65</clovCoeff>
               <FermState>
                 <Name>SLIC_FERM_STATE</Name>
@@ -206,7 +206,7 @@
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <source_id>sh_source_1</source_id>
 	  <prop_id>{{>prop_id}}</prop_id>
-	  <initial_guess_id>prop_0.12104</initial_guess_id>
+	  <initial_guess_id>prop_{{kappa}}</initial_guess_id>
 	</NamedObject>
       </elem>
 
@@ -279,15 +279,17 @@
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <sink_pairs>
-
+	    
 	    {{#sink_smearing}}
+	    {{#unperturbed}}
 	    {{#combinations}}
 	    <elem>
 	      <first_id>{{>comb_id1}}_smeared_sink{{#smearing}}_{{smintpar}}{{/smearing}}</first_id>
 	      <second_id>{{>comb_id2}}_smeared_sink{{#smearing}}_{{smintpar}}{{/smearing}}</second_id>
 	    </elem>
 	    {{/combinations}}
-
+	    {{/unperturbed}}
+	    
 	    {{#operators}}
 	    {{#combinations}}
 	    <elem>
@@ -310,8 +312,8 @@
 
 	  </sink_pairs>
 	</NamedObject>
-	<lime_file>[[TMP_DIR]]/baryon_[[TRAJ]]_0.000.lime</lime_file>
-	<xml_file>[[TMP_DIR]]/baryon_[[TRAJ]]_0.000.xml</xml_file>
+	<lime_file>[[TMP_DIR]]/baryon_[[TRAJ]]_0.000{{#fh-params}}_{{#q}}{{.}}{{/q}}{{/fh-params}}.lime</lime_file>
+	<xml_file>[[TMP_DIR]]/baryon_[[TRAJ]]_0.000{{#fh-params}}_{{#q}}{{.}}{{/q}}{{/fh-params}}.xml</xml_file>
       </elem>
 
       <elem>
@@ -331,12 +333,14 @@
 	  <sink_pairs>
 
 	    {{#sink_smearing}}
+	    {{#unperturbed}}
 	    {{#combinations}}
 	    <elem>
 	      <first_id>{{>comb_id1}}_smeared_sink{{#smearing}}_{{smintpar}}{{/smearing}}</first_id>
 	      <second_id>{{>comb_id2}}_smeared_sink{{#smearing}}_{{smintpar}}{{/smearing}}</second_id>
 	    </elem>
 	    {{/combinations}}
+	    {{/unperturbed}}
 
 	    {{#operators}}
 	    {{#combinations}}
@@ -360,8 +364,8 @@
 
 	  </sink_pairs>
 	</NamedObject>
-	<lime_file>[[TMP_DIR]]/meson_[[TRAJ]]_0.000.lime</lime_file>
-	<xml_file>[[TMP_DIR]]/meson_[[TRAJ]]_0.000.xml</xml_file>
+	<lime_file>[[TMP_DIR]]/meson_[[TRAJ]]_0.000{{#fh-params}}_{{#q}}{{.}}{{/q}}{{/fh-params}}.lime</lime_file>
+	<xml_file>[[TMP_DIR]]/meson_[[TRAJ]]_0.000{{#fh-params}}_{{#q}}{{.}}{{/q}}{{/fh-params}}.xml</xml_file>
       </elem>
 
       {{#sink_smearing}}

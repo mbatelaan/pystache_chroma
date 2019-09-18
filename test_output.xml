@@ -615,7 +615,7 @@
             <RsdTarget>1e-12</RsdTarget>
             <Delta>0.01</Delta>
             <CloverParams>
-              <Kappa>0.12104</Kappa>
+              <Kappa>0.12062</Kappa>
               <clovCoeff>2.65</clovCoeff>
               <FermState>
                 <Name>SLIC_FERM_STATE</Name>
@@ -673,7 +673,7 @@
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <source_id>sh_source_1</source_id>
 	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40</prop_id>
-	  <initial_guess_id>prop_0.12104</initial_guess_id>
+	  <initial_guess_id>prop_0.12062</initial_guess_id>
 	</NamedObject>
       </elem>
 
@@ -745,7 +745,7 @@
             <RsdTarget>1e-12</RsdTarget>
             <Delta>0.01</Delta>
             <CloverParams>
-              <Kappa>0.12104</Kappa>
+              <Kappa>0.12062</Kappa>
               <clovCoeff>2.65</clovCoeff>
               <FermState>
                 <Name>SLIC_FERM_STATE</Name>
@@ -803,7 +803,7 @@
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <source_id>sh_source_1</source_id>
 	  <prop_id>fh_fh_prop_0.12062_0_g2_440_0.0001_g8_440_0_g2_-4-40_0.0001_g8_-4-40</prop_id>
-	  <initial_guess_id>prop_0.12104</initial_guess_id>
+	  <initial_guess_id>prop_0.12062</initial_guess_id>
 	</NamedObject>
       </elem>
 
@@ -1160,7 +1160,7 @@
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <sink_pairs>
-
+	    
 	    <elem>
 	      <first_id>prop_0.12104_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
@@ -1173,7 +1173,7 @@
 	      <first_id>prop_0.12062_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
 	    </elem>
-
+	    
 	    <elem>
 	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
@@ -1236,7 +1236,7 @@
 	      <first_id>prop_0.12062_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
 	    </elem>
-
+	    
 	    <elem>
 	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
@@ -1299,7 +1299,7 @@
 	      <first_id>prop_0.12062_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
 	    </elem>
-
+	    
 	    <elem>
 	      <first_id>fh_fh_prop_0.12104_0.0001_g2_440_0_g8_440_0.0001_g2_-4-40_0_g8_-4-40_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
@@ -1353,8 +1353,8 @@
 
 	  </sink_pairs>
 	</NamedObject>
-	<lime_file>{{TMP_DIR}}/baryon_{{TRAJ}}_0.000.lime</lime_file>
-	<xml_file>{{TMP_DIR}}/baryon_{{TRAJ}}_0.000.xml</xml_file>
+	<lime_file>{{TMP_DIR}}/baryon_{{TRAJ}}_0.000_440_-4-40.lime</lime_file>
+	<xml_file>{{TMP_DIR}}/baryon_{{TRAJ}}_0.000_440_-4-40.xml</xml_file>
       </elem>
 
       <elem>
@@ -1565,8 +1565,8 @@
 
 	  </sink_pairs>
 	</NamedObject>
-	<lime_file>{{TMP_DIR}}/meson_{{TRAJ}}_0.000.lime</lime_file>
-	<xml_file>{{TMP_DIR}}/meson_{{TRAJ}}_0.000.xml</xml_file>
+	<lime_file>{{TMP_DIR}}/meson_{{TRAJ}}_0.000_440_-4-40.lime</lime_file>
+	<xml_file>{{TMP_DIR}}/meson_{{TRAJ}}_0.000_440_-4-40.xml</xml_file>
       </elem>
 
       <elem>
@@ -1986,7 +1986,7 @@
             <RsdTarget>1e-12</RsdTarget>
             <Delta>0.01</Delta>
             <CloverParams>
-              <Kappa>0.12104</Kappa>
+              <Kappa>0.12062</Kappa>
               <clovCoeff>2.65</clovCoeff>
               <FermState>
                 <Name>SLIC_FERM_STATE</Name>
@@ -2044,7 +2044,7 @@
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <source_id>sh_source_1</source_id>
 	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20</prop_id>
-	  <initial_guess_id>prop_0.12104</initial_guess_id>
+	  <initial_guess_id>prop_0.12062</initial_guess_id>
 	</NamedObject>
       </elem>
 
@@ -2116,7 +2116,7 @@
             <RsdTarget>1e-12</RsdTarget>
             <Delta>0.01</Delta>
             <CloverParams>
-              <Kappa>0.12104</Kappa>
+              <Kappa>0.12062</Kappa>
               <clovCoeff>2.65</clovCoeff>
               <FermState>
                 <Name>SLIC_FERM_STATE</Name>
@@ -2174,7 +2174,7 @@
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <source_id>sh_source_1</source_id>
 	  <prop_id>fh_fh_prop_0.12062_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20</prop_id>
-	  <initial_guess_id>prop_0.12104</initial_guess_id>
+	  <initial_guess_id>prop_0.12062</initial_guess_id>
 	</NamedObject>
       </elem>
 
@@ -2531,20 +2531,8 @@
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <sink_pairs>
-
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>prop_0.12104_smeared_sink</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>prop_0.12062_smeared_sink</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12062_smeared_sink</first_id>
-	      <second_id>prop_0.12104_smeared_sink</second_id>
-	    </elem>
-
+	    
+	    
 	    <elem>
 	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
@@ -2595,19 +2583,7 @@
 	      <second_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink</second_id>
 	    </elem>
 
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>prop_0.12104_smeared_sink_30</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>prop_0.12062_smeared_sink_30</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12062_smeared_sink_30</first_id>
-	      <second_id>prop_0.12104_smeared_sink_30</second_id>
-	    </elem>
-
+	    
 	    <elem>
 	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
@@ -2658,19 +2634,7 @@
 	      <second_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_30</second_id>
 	    </elem>
 
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>prop_0.12104_smeared_sink_60</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>prop_0.12062_smeared_sink_60</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12062_smeared_sink_60</first_id>
-	      <second_id>prop_0.12104_smeared_sink_60</second_id>
-	    </elem>
-
+	    
 	    <elem>
 	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
@@ -2724,8 +2688,8 @@
 
 	  </sink_pairs>
 	</NamedObject>
-	<lime_file>{{TMP_DIR}}/baryon_{{TRAJ}}_0.000.lime</lime_file>
-	<xml_file>{{TMP_DIR}}/baryon_{{TRAJ}}_0.000.xml</xml_file>
+	<lime_file>{{TMP_DIR}}/baryon_{{TRAJ}}_0.000_420_-4-20.lime</lime_file>
+	<xml_file>{{TMP_DIR}}/baryon_{{TRAJ}}_0.000_420_-4-20.xml</xml_file>
       </elem>
 
       <elem>
@@ -2744,18 +2708,6 @@
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <sink_pairs>
 
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>prop_0.12104_smeared_sink</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>prop_0.12062_smeared_sink</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12062_smeared_sink</first_id>
-	      <second_id>prop_0.12104_smeared_sink</second_id>
-	    </elem>
 
 	    <elem>
 	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink</first_id>
@@ -2807,18 +2759,6 @@
 	      <second_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink</second_id>
 	    </elem>
 
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>prop_0.12104_smeared_sink_30</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>prop_0.12062_smeared_sink_30</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12062_smeared_sink_30</first_id>
-	      <second_id>prop_0.12104_smeared_sink_30</second_id>
-	    </elem>
 
 	    <elem>
 	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_30</first_id>
@@ -2870,18 +2810,6 @@
 	      <second_id>fh_fh_prop_0.12104_0_g2_420_0.0001_g8_420_0_g2_-4-20_0.0001_g8_-4-20_smeared_sink_30</second_id>
 	    </elem>
 
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>prop_0.12104_smeared_sink_60</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>prop_0.12062_smeared_sink_60</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12062_smeared_sink_60</first_id>
-	      <second_id>prop_0.12104_smeared_sink_60</second_id>
-	    </elem>
 
 	    <elem>
 	      <first_id>fh_fh_prop_0.12104_0.0001_g2_420_0_g8_420_0.0001_g2_-4-20_0_g8_-4-20_smeared_sink_60</first_id>
@@ -2936,8 +2864,8 @@
 
 	  </sink_pairs>
 	</NamedObject>
-	<lime_file>{{TMP_DIR}}/meson_{{TRAJ}}_0.000.lime</lime_file>
-	<xml_file>{{TMP_DIR}}/meson_{{TRAJ}}_0.000.xml</xml_file>
+	<lime_file>{{TMP_DIR}}/meson_{{TRAJ}}_0.000_420_-4-20.lime</lime_file>
+	<xml_file>{{TMP_DIR}}/meson_{{TRAJ}}_0.000_420_-4-20.xml</xml_file>
       </elem>
 
       <elem>
@@ -3357,7 +3285,7 @@
             <RsdTarget>1e-12</RsdTarget>
             <Delta>0.01</Delta>
             <CloverParams>
-              <Kappa>0.12104</Kappa>
+              <Kappa>0.12062</Kappa>
               <clovCoeff>2.65</clovCoeff>
               <FermState>
                 <Name>SLIC_FERM_STATE</Name>
@@ -3415,7 +3343,7 @@
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <source_id>sh_source_1</source_id>
 	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2</prop_id>
-	  <initial_guess_id>prop_0.12104</initial_guess_id>
+	  <initial_guess_id>prop_0.12062</initial_guess_id>
 	</NamedObject>
       </elem>
 
@@ -3487,7 +3415,7 @@
             <RsdTarget>1e-12</RsdTarget>
             <Delta>0.01</Delta>
             <CloverParams>
-              <Kappa>0.12104</Kappa>
+              <Kappa>0.12062</Kappa>
               <clovCoeff>2.65</clovCoeff>
               <FermState>
                 <Name>SLIC_FERM_STATE</Name>
@@ -3545,7 +3473,7 @@
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <source_id>sh_source_1</source_id>
 	  <prop_id>fh_fh_prop_0.12062_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2</prop_id>
-	  <initial_guess_id>prop_0.12104</initial_guess_id>
+	  <initial_guess_id>prop_0.12062</initial_guess_id>
 	</NamedObject>
       </elem>
 
@@ -3902,20 +3830,8 @@
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <sink_pairs>
-
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>prop_0.12104_smeared_sink</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>prop_0.12062_smeared_sink</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12062_smeared_sink</first_id>
-	      <second_id>prop_0.12104_smeared_sink</second_id>
-	    </elem>
-
+	    
+	    
 	    <elem>
 	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
@@ -3966,19 +3882,7 @@
 	      <second_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink</second_id>
 	    </elem>
 
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>prop_0.12104_smeared_sink_30</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>prop_0.12062_smeared_sink_30</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12062_smeared_sink_30</first_id>
-	      <second_id>prop_0.12104_smeared_sink_30</second_id>
-	    </elem>
-
+	    
 	    <elem>
 	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
@@ -4029,19 +3933,7 @@
 	      <second_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_30</second_id>
 	    </elem>
 
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>prop_0.12104_smeared_sink_60</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>prop_0.12062_smeared_sink_60</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12062_smeared_sink_60</first_id>
-	      <second_id>prop_0.12104_smeared_sink_60</second_id>
-	    </elem>
-
+	    
 	    <elem>
 	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
@@ -4095,8 +3987,8 @@
 
 	  </sink_pairs>
 	</NamedObject>
-	<lime_file>{{TMP_DIR}}/baryon_{{TRAJ}}_0.000.lime</lime_file>
-	<xml_file>{{TMP_DIR}}/baryon_{{TRAJ}}_0.000.xml</xml_file>
+	<lime_file>{{TMP_DIR}}/baryon_{{TRAJ}}_0.000_222_-2-2-2.lime</lime_file>
+	<xml_file>{{TMP_DIR}}/baryon_{{TRAJ}}_0.000_222_-2-2-2.xml</xml_file>
       </elem>
 
       <elem>
@@ -4115,18 +4007,6 @@
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <sink_pairs>
 
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>prop_0.12104_smeared_sink</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>prop_0.12062_smeared_sink</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12062_smeared_sink</first_id>
-	      <second_id>prop_0.12104_smeared_sink</second_id>
-	    </elem>
 
 	    <elem>
 	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink</first_id>
@@ -4178,18 +4058,6 @@
 	      <second_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink</second_id>
 	    </elem>
 
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>prop_0.12104_smeared_sink_30</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>prop_0.12062_smeared_sink_30</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12062_smeared_sink_30</first_id>
-	      <second_id>prop_0.12104_smeared_sink_30</second_id>
-	    </elem>
 
 	    <elem>
 	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_30</first_id>
@@ -4241,18 +4109,6 @@
 	      <second_id>fh_fh_prop_0.12104_0_g2_222_0.0001_g8_222_0_g2_-2-2-2_0.0001_g8_-2-2-2_smeared_sink_30</second_id>
 	    </elem>
 
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>prop_0.12104_smeared_sink_60</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>prop_0.12062_smeared_sink_60</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12062_smeared_sink_60</first_id>
-	      <second_id>prop_0.12104_smeared_sink_60</second_id>
-	    </elem>
 
 	    <elem>
 	      <first_id>fh_fh_prop_0.12104_0.0001_g2_222_0_g8_222_0.0001_g2_-2-2-2_0_g8_-2-2-2_smeared_sink_60</first_id>
@@ -4307,8 +4163,8 @@
 
 	  </sink_pairs>
 	</NamedObject>
-	<lime_file>{{TMP_DIR}}/meson_{{TRAJ}}_0.000.lime</lime_file>
-	<xml_file>{{TMP_DIR}}/meson_{{TRAJ}}_0.000.xml</xml_file>
+	<lime_file>{{TMP_DIR}}/meson_{{TRAJ}}_0.000_222_-2-2-2.lime</lime_file>
+	<xml_file>{{TMP_DIR}}/meson_{{TRAJ}}_0.000_222_-2-2-2.xml</xml_file>
       </elem>
 
       <elem>
@@ -4728,7 +4584,7 @@
             <RsdTarget>1e-12</RsdTarget>
             <Delta>0.01</Delta>
             <CloverParams>
-              <Kappa>0.12104</Kappa>
+              <Kappa>0.12062</Kappa>
               <clovCoeff>2.65</clovCoeff>
               <FermState>
                 <Name>SLIC_FERM_STATE</Name>
@@ -4786,7 +4642,7 @@
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <source_id>sh_source_1</source_id>
 	  <prop_id>fh_fh_prop_0.12062_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200</prop_id>
-	  <initial_guess_id>prop_0.12104</initial_guess_id>
+	  <initial_guess_id>prop_0.12062</initial_guess_id>
 	</NamedObject>
       </elem>
 
@@ -4858,7 +4714,7 @@
             <RsdTarget>1e-12</RsdTarget>
             <Delta>0.01</Delta>
             <CloverParams>
-              <Kappa>0.12104</Kappa>
+              <Kappa>0.12062</Kappa>
               <clovCoeff>2.65</clovCoeff>
               <FermState>
                 <Name>SLIC_FERM_STATE</Name>
@@ -4916,7 +4772,7 @@
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <source_id>sh_source_1</source_id>
 	  <prop_id>fh_fh_prop_0.12062_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200</prop_id>
-	  <initial_guess_id>prop_0.12104</initial_guess_id>
+	  <initial_guess_id>prop_0.12062</initial_guess_id>
 	</NamedObject>
       </elem>
 
@@ -5273,20 +5129,8 @@
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <sink_pairs>
-
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>prop_0.12104_smeared_sink</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>prop_0.12062_smeared_sink</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12062_smeared_sink</first_id>
-	      <second_id>prop_0.12104_smeared_sink</second_id>
-	    </elem>
-
+	    
+	    
 	    <elem>
 	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink</first_id>
 	      <second_id>prop_0.12104_smeared_sink</second_id>
@@ -5337,19 +5181,7 @@
 	      <second_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink</second_id>
 	    </elem>
 
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>prop_0.12104_smeared_sink_30</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>prop_0.12062_smeared_sink_30</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12062_smeared_sink_30</first_id>
-	      <second_id>prop_0.12104_smeared_sink_30</second_id>
-	    </elem>
-
+	    
 	    <elem>
 	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_30</first_id>
 	      <second_id>prop_0.12104_smeared_sink_30</second_id>
@@ -5400,19 +5232,7 @@
 	      <second_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_30</second_id>
 	    </elem>
 
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>prop_0.12104_smeared_sink_60</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>prop_0.12062_smeared_sink_60</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12062_smeared_sink_60</first_id>
-	      <second_id>prop_0.12104_smeared_sink_60</second_id>
-	    </elem>
-
+	    
 	    <elem>
 	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_60</first_id>
 	      <second_id>prop_0.12104_smeared_sink_60</second_id>
@@ -5466,8 +5286,8 @@
 
 	  </sink_pairs>
 	</NamedObject>
-	<lime_file>{{TMP_DIR}}/baryon_{{TRAJ}}_0.000.lime</lime_file>
-	<xml_file>{{TMP_DIR}}/baryon_{{TRAJ}}_0.000.xml</xml_file>
+	<lime_file>{{TMP_DIR}}/baryon_{{TRAJ}}_0.000_200_-200.lime</lime_file>
+	<xml_file>{{TMP_DIR}}/baryon_{{TRAJ}}_0.000_200_-200.xml</xml_file>
       </elem>
 
       <elem>
@@ -5486,18 +5306,6 @@
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <sink_pairs>
 
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>prop_0.12104_smeared_sink</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink</first_id>
-	      <second_id>prop_0.12062_smeared_sink</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12062_smeared_sink</first_id>
-	      <second_id>prop_0.12104_smeared_sink</second_id>
-	    </elem>
 
 	    <elem>
 	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink</first_id>
@@ -5549,18 +5357,6 @@
 	      <second_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink</second_id>
 	    </elem>
 
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>prop_0.12104_smeared_sink_30</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink_30</first_id>
-	      <second_id>prop_0.12062_smeared_sink_30</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12062_smeared_sink_30</first_id>
-	      <second_id>prop_0.12104_smeared_sink_30</second_id>
-	    </elem>
 
 	    <elem>
 	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_30</first_id>
@@ -5612,18 +5408,6 @@
 	      <second_id>fh_fh_prop_0.12104_0_g2_200_0.0001_g8_200_0_g2_-200_0.0001_g8_-200_smeared_sink_30</second_id>
 	    </elem>
 
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>prop_0.12104_smeared_sink_60</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12104_smeared_sink_60</first_id>
-	      <second_id>prop_0.12062_smeared_sink_60</second_id>
-	    </elem>
-	    <elem>
-	      <first_id>prop_0.12062_smeared_sink_60</first_id>
-	      <second_id>prop_0.12104_smeared_sink_60</second_id>
-	    </elem>
 
 	    <elem>
 	      <first_id>fh_fh_prop_0.12104_0.0001_g2_200_0_g8_200_0.0001_g2_-200_0_g8_-200_smeared_sink_60</first_id>
@@ -5678,8 +5462,8 @@
 
 	  </sink_pairs>
 	</NamedObject>
-	<lime_file>{{TMP_DIR}}/meson_{{TRAJ}}_0.000.lime</lime_file>
-	<xml_file>{{TMP_DIR}}/meson_{{TRAJ}}_0.000.xml</xml_file>
+	<lime_file>{{TMP_DIR}}/meson_{{TRAJ}}_0.000_200_-200.lime</lime_file>
+	<xml_file>{{TMP_DIR}}/meson_{{TRAJ}}_0.000_200_-200.xml</xml_file>
       </elem>
 
       <elem>
