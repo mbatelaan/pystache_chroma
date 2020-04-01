@@ -45,7 +45,7 @@
 	  <obsvP>false</obsvP>
 	  <numRetries>1</numRetries>
 	  <FermionAction>
-	    <FermAct>SLRC</FermAct>
+	    <FermAct>UNPRECONDITIONED_SLRC</FermAct>
 	    <Kappa>{{kappa}}</Kappa>                    <!-- mass -->
 	    <clovCoeff>2.65</clovCoeff>
 	    <FermState>
@@ -64,11 +64,11 @@
             <invType>DDS_INVERTER</invType>
             <Kappa>{{kappa}}</Kappa>
             <Csw>2.65</Csw>
-            <Nmr>5</Nmr>  
+            <Nmr>5</Nmr>
             <Ncy>8</Ncy>
             <Nkv>18</Nkv>
             <DeflatedNV>4</DeflatedNV>
-            <BlockSize>4 4 4 8</BlockSize>
+            <BlockSize>XXBLOCKSIZEXX</BlockSize>
             <RsdDDS>1.0e-12</RsdDDS>
             <MaxDDS>1000</MaxDDS>
             <BlkRel>0</BlkRel>
