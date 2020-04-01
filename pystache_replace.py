@@ -1,16 +1,18 @@
 import sys
 import pystache
-import importlib
-#import imp
+import json
+#import importlib
 
 parameterfile = sys.argv[1]
 print(parameterfile)
-i=importlib.import_module(parameterfile)
+#i=importlib.import_module(parameterfile)
 #import parameterfile
+
+partials = json.load(open('partials.json','r'))
+parameters = json.load(open(parameterfile,'r'))
 
 file = open('input_template.xml.ms', 'r').read()
 template = pystache.parse(file)
-
 # parameters = {"kappas" : [{"kappa" : 0.12104}
 #                           , {"kappa" : 0.12062}]
 #               , "kappas2" : [{"kappa2" : 0.12104}
@@ -67,7 +69,7 @@ template = pystache.parse(file)
 #             , "fh_params" : "{{#fh-params}}{{#op}}_{{lam_real}}_g{{opval}}_{{#q}}{{.}}{{/q}}{{/op}}{{/fh-params}}"
 # }
 
-ms_renderer = pystache.Renderer(partials = i.partials)
+ms_renderer = pystache.Renderer(partials = partials)
 def render_ms(template, obj):
     return ms_renderer.render(template,obj)
-open('pystache_output.xml', 'w+').write(render_ms(template, i.parameters).replace('[[', '{{').replace(']]', '}}'))
+open('pystache_output.xml', 'w+').write(render_ms(template, parameters).replace('[[', '{{').replace(']]', '}}'))
