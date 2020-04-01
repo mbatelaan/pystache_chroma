@@ -27,7 +27,9 @@ parameters = {"kappas" : [{"kappa" : 0.12104}
                                 , "mom2max" : "3"}
                              , {"fh-params" : [{"q" : ["2","0","0"]},
                                                {"q" : ["-2","0","0"]}]
-                                , "mom2max" : "1"}]
+                                , "mom2max" : "1"}
+                             , {"fh-params" : [{"q" : ["0","0","0"]}]
+                                , "mom2max" : "0"}]
               , "operators" : [{"op" : [{"opval" : "2", "lam_real" : "0.0001", "lam_imag" : "0"}
                                         , {"opval" : "8", "lam_real" : "0", "lam_imag" : "0"}]
                                 }
