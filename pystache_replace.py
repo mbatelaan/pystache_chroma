@@ -3,6 +3,8 @@ import pystache
 import json
 
 parameterfile = sys.argv[1]
+conf=parameterfile[11:27]
+print(conf)
 partials = json.load(open('partials.json','r'))
 parameters = json.load(open(parameterfile,'r')) #parameters_allq.json 
 
@@ -11,4 +13,4 @@ template = pystache.parse(file)
 ms_renderer = pystache.Renderer(partials = partials)
 def render_ms(template, obj):
     return ms_renderer.render(template,obj)
-open('pystache_output.xml', 'w+').write(render_ms(template, parameters).replace('[[', '{{').replace(']]', '}}'))
+open('chromatemplate_'+conf+'.xml', 'w+').write(render_ms(template, parameters).replace('[[', '{{').replace(']]', '}}'))
