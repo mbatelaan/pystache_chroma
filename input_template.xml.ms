@@ -35,7 +35,7 @@
       </elem>
       
       {{#kappas}}
-      <!-- THE UNPERTUORPED PROPOGATOR -->
+      <!-- THE UNPERTURBED PROPOGATOR -->
       <elem>
 	<Name>PROPAGATOR</Name>
 	<Frequency>1</Frequency>
