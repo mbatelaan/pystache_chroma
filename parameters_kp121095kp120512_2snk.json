@@ -1,0 +1,66 @@
+{"kappas" : [{"kappa" : 0.121095},
+	     {"kappa" : 0.120512}
+	    ],
+ "kappas2" : [{"kappa2" : 0.121095},
+              {"kappa2" : 0.120512}
+	     ],
+ "src_smr" : 30,
+ "sink_smearing" : [
+     {"sink_type" : "POINT_SINK"},
+     {
+	 "sink_type" : "SHELL_SINK",
+	 "smearing" : {"smintpar" : 30}
+     }
+ ],
+ "momenta" : [{"fh-params" : [{"q" : ["4","4","0"]},
+                              {"q" : ["-4","-4","0"]}
+			     ],
+               "mom2max" : "8",
+               "unperturbed" : "True"
+	      },
+              {"fh-params" : [{"q" : ["4","2","0"]},
+                              {"q" : ["-4","-2","0"]}
+			     ],
+               "mom2max" : "5"
+	      },
+              {"fh-params" : [{"q" : ["2","2","2"]},
+                              {"q" : ["-2","-2","-2"]}
+			     ],
+               "mom2max" : "3"
+	      },
+              {"fh-params" : [{"q" : ["2","0","0"]},
+                              {"q" : ["-2","0","0"]}
+			     ],
+               "mom2max" : "1"
+	      },
+              {"fh-params" : [{"q" : ["0","0","0"]},
+			      {"q" : ["0","0","0"]}
+			     ],
+               "mom2max" : "0"
+	      }
+	     ],
+ "operators" : [{"op" : [{"opval" : "2", "lam_real" : "0.0001", "lam_imag" : "0"},
+                         {"opval" : "8", "lam_real" : "0", "lam_imag" : "0"}
+			]
+                },
+                {"op" : [{"opval" : "2", "lam_real" : "0", "lam_imag" : "0"},
+                         {"opval" : "8", "lam_real" : "0.0001", "lam_imag" : "0"}
+			]
+                }
+	       ],
+ "lambda" :  0.0001,
+ "combinations" :[
+  {
+    "kappa1": "0.121095",
+    "kappa2": "0.121095"
+  },
+  {
+    "kappa1": "0.121095",
+    "kappa2": "0.120512"
+  },
+  {
+    "kappa1": "0.120512",
+    "kappa2": "0.121095"
+  }
+]
+}
