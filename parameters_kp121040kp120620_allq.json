@@ -3,13 +3,15 @@
  , "kappas2" : [{"kappa2" : 0.12104}
                 , {"kappa2" : 0.12062}]
  , "src_smr" : 30
- , "sink_smearing" : [{"sink_type" : "POINT_SINK"}
+ , "sink_smearing" : [{"sink_type" : "POINT_SINK"
+		       , "pt" : "True"}
                       , {"sink_type" : "SHELL_SINK"
                          , "smearing" : {"smintpar" : 30}
                         }
                       , {"sink_type" : "SHELL_SINK"
                          , "smearing" : {"smintpar" : 60}
                         }]
+ 
  , "momenta" : [{"fh-params" : [ {"q" : ["4","4","0"]},
                                  {"q" : ["-4","-4","0"]}]
                  , "mom2max" : "8"
