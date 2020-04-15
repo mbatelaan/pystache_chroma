@@ -1,0 +1,31 @@
+{"kappas" : [{"kappa" : "0.120900"}],
+ "src_smr" : 30,
+ "sink_smearing" : [
+     {
+	 "sink_type" : "SHELL_SINK",
+	 "smearing"  : {"smintpar" : 30}
+     }
+ ],
+ "momenta" : [{"fh-params" : [{"q" : ["0","0","0"]},
+			      {"q" : ["0","0","0"]}
+			     ],
+               "mom2max" : "0",
+	       "unperturbed" : "True"
+	      }
+	     ],
+ "operators" : [{"op" : [{"opval" : "2", "lam_real" : "0.00001", "lam_imag" : "0"},
+                         {"opval" : "8", "lam_real" : "0", "lam_imag" : "0"}
+			]
+                },
+                {"op" : [{"opval" : "2", "lam_real" : "0", "lam_imag" : "0"},
+                         {"opval" : "8", "lam_real" : "0.00001", "lam_imag" : "0"}
+			]
+                }
+	       ],
+ "combinations" :[
+     {
+	 "kappa1": "0.120900",
+	 "kappa2": "0.120900"
+     }
+ ]
+}

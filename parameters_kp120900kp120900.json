@@ -1,8 +1,8 @@
-{"kappas" : [{"kappa" : 0.120900},
-	     {"kappa" : 0.120900}
+{"kappas" : [{"kappa" : "0.120900"},
+	     {"kappa" : "0.120900"}
 	    ],
- "kappas2" : [{"kappa2" : 0.120900},
-              {"kappa2" : 0.120900}
+ "kappas2" : [{"kappa2" : "0.120900"},
+              {"kappa2" : "0.120900"}
 	     ],
  "src_smr" : 30,
  "sink_smearing" : [
