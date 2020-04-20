@@ -41,4 +41,6 @@
                         , "kappa2" : "0.12062"}
                      , {"kappa1" : "0.12062"
                         , "kappa2" : "0.12104"}]
+ , "baryons" : "True"
+ , "mesons"  : "True"
 }

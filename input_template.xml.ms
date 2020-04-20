@@ -264,6 +264,7 @@
       {{/operators}}
       {{/kappas}}
 
+      {{#baryons}}
       <elem>
 	<Name>BARYON_SPECTRUM-QCDSF</Name>
 	<Frequency>1</Frequency>
@@ -315,7 +316,9 @@
 	<lime_file>[[TMP_DIR]]/baryon_[[TRAJ]]_0.000{{#fh-params}}_{{#q}}{{.}}{{/q}}{{/fh-params}}.lime</lime_file>
 	<xml_file>[[TMP_DIR]]/baryon_[[TRAJ]]_0.000{{#fh-params}}_{{#q}}{{.}}{{/q}}{{/fh-params}}.xml</xml_file>
       </elem>
+      {{/baryons}}
 
+      {{#mesons}}
       <elem>
 	<Name>MESON_SPECTRUM-QCDSF</Name>
 	<Frequency>1</Frequency>
@@ -367,7 +370,8 @@
 	<lime_file>[[TMP_DIR]]/meson_[[TRAJ]]_0.000{{#fh-params}}_{{#q}}{{.}}{{/q}}{{/fh-params}}.lime</lime_file>
 	<xml_file>[[TMP_DIR]]/meson_[[TRAJ]]_0.000{{#fh-params}}_{{#q}}{{.}}{{/q}}{{/fh-params}}.xml</xml_file>
       </elem>
-
+      {{/mesons}}
+      
       {{#sink_smearing}}
       {{#kappas}}
       {{#operators}}
