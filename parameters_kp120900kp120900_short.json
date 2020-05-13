@@ -1,4 +1,5 @@
 {"kappas" : [{"kappa" : "0.120900"}],
+ "csw" : 2.65,
  "src_smr" : 30,
  "sink_smearing" : [
      {

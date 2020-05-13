@@ -4,6 +4,7 @@
  "kappas2" : [{"kappa2" : "0.121095"},
               {"kappa2" : "0.120512"}
 	     ],
+ "csw" : 2.65,
  "src_smr" : 30,
  "sink_smearing" : [
      {"sink_type" : "POINT_SINK"},

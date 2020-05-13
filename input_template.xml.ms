@@ -47,7 +47,7 @@
 	  <FermionAction>
 	    <FermAct>UNPRECONDITIONED_SLRC</FermAct>
 	    <Kappa>{{kappa}}</Kappa>                    <!-- mass -->
-	    <clovCoeff>2.65</clovCoeff>
+	    <clovCoeff>{{csw}}</clovCoeff>
 	    <FermState>
 	      <Name>SLIC_FERM_STATE</Name>
 	      <n_smear>1</n_smear>
@@ -63,7 +63,7 @@
 	  <InvertParam>
             <invType>DDS_INVERTER</invType>
             <Kappa>{{kappa}}</Kappa>
-            <Csw>2.65</Csw>
+            <Csw>{{csw}}</Csw>
             <Nmr>5</Nmr>
             <Ncy>8</Ncy>
             <Nkv>18</Nkv>
@@ -152,7 +152,7 @@
 	      {{/fh-params}}
 	      {{/op}}
 	    </FeynHellParam>
-	    <clovCoeff>2.65</clovCoeff>
+	    <clovCoeff>{{csw}}</clovCoeff>
 	    <FermState>
 	      <Name>SLIC_FERM_STATE</Name>
 	      <n_smear>1</n_smear>
@@ -172,7 +172,7 @@
             <Delta>0.01</Delta>
             <CloverParams>
               <Kappa>{{kappa}}</Kappa>
-              <clovCoeff>2.65</clovCoeff>
+              <clovCoeff>{{csw}}</clovCoeff>
               <FermState>
                 <Name>SLIC_FERM_STATE</Name>
                 <version>2</version>
