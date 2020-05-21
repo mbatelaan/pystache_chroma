@@ -14,3 +14,7 @@ ms_renderer = pystache.Renderer(partials = partials)
 def render_ms(template, obj):
     return ms_renderer.render(template,obj)
 open('chromatemplate_'+conf+'.xml', 'w+').write(render_ms(template, parameters).replace('[[', '{{').replace(']]', '}}'))
+
+
+
+##"fh_params"     : "{{#fh-params}}{{#op}}_{{lam_real}}_g{{opval}}_{{#q}}{{.}}{{/q}}{{/op}}{{/fh-params}}" //Only works with real lambdas for now

@@ -123,9 +123,11 @@
 
       {{#momenta}}
       <!-- END PREAMBLE -->
-      <!-- Propagator for mom {{#fh-params}}({{#q}}{{.}} {{/q}}) {{/fh-params}} -->
+      <!-- Propagators for mom {{#fh-params}}({{#q}}{{.}} {{/q}}) {{/fh-params}} -->
+      {{#lambdas}}
       {{#kappas}}
       {{#operators}}
+      <!-- Propagator for q=[{{#fh-params}}({{#q}}{{.}} {{/q}}) {{/fh-params}}], kappa={{kappa}}, {{#op}}lambda_g{{opval}}={{#lambda}}{{lmb_real}}{{/lambda}}{{^lambda}}0{{/lambda}}, {{/op}} -->
       <elem>
 	<Name>PROPAGATOR</Name>
 	<Frequency>1</Frequency>
@@ -141,8 +143,8 @@
 	      {{#op}}
 	      {{#fh-params}}
 	      <elem>
-		<LambdaReal>{{lam_real}}</LambdaReal>
-		<LambdaImag>{{lam_imag}}</LambdaImag>
+		<LambdaReal>{{#lambda}}{{lmb_real}}{{/lambda}}{{^lambda}}0{{/lambda}}</LambdaReal>
+		<LambdaImag>{{#lambda}}{{lmb_imag}}{{/lambda}}{{^lambda}}0{{/lambda}}</LambdaImag>
 		<Operator>{{opval}}</Operator>
 		<Momentum>{{#q}}{{.}} {{/q}}</Momentum>
 		<Source>[[SX]] [[SY]] [[SZ]] [[ST]]</Source>
@@ -189,8 +191,8 @@
 	      {{#op}}
 	      {{#fh-params}}
 	      <elem>
-		<LambdaReal>{{lam_real}}</LambdaReal>
-		<LambdaImag>{{lam_imag}}</LambdaImag>
+		<LambdaReal>{{#lambda}}{{lmb_real}}{{/lambda}}{{^lambda}}0{{/lambda}}</LambdaReal>
+		<LambdaImag>{{#lambda}}{{lmb_imag}}{{/lambda}}{{^lambda}}0{{/lambda}}</LambdaImag>
 		<Operator>{{opval}}</Operator>
 		<Momentum>{{#q}}{{.}} {{/q}}</Momentum>
 		<Source>[[SX]] [[SY]] [[SZ]] [[ST]]</Source>
@@ -207,13 +209,20 @@
 	  <source_id>sh_source_1</source_id>
 	  <prop_id>{{>prop_id}}</prop_id>
 	  <initial_guess_id>prop_{{kappa}}</initial_guess_id>
+	  {{#prior}}
+ 	  <prior_perturbed_guess_id>{{>prior_id}}</prior_perturbed_guess_id>
+	  <prior_perturbed_factor>{{factor}}</prior_perturbed_factor>
+	  {{/prior}}
 	</NamedObject>
       </elem>
 
       {{/operators}}
 
       {{/kappas}}
-
+      
+      {{/lambdas}}
+	
+      {{#lambdas}}
       {{#kappas}}
       {{#operators}}
       {{#sink_smearing}}
@@ -252,6 +261,9 @@
       
       {{/kappas}}
 
+      {{/lambdas}}
+
+      {{#lambdas}}
       {{#kappas}}
       {{#operators}}
       <elem>
@@ -263,6 +275,7 @@
       </elem>
       {{/operators}}
       {{/kappas}}
+      {{/lambdas}}
 
       {{#baryons}}
       <elem>
@@ -280,7 +293,7 @@
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <sink_pairs>
-	    
+
 	    {{#sink_smearing}}
 	    {{#unperturbed}}
 	    {{#combinations}}
@@ -290,7 +303,8 @@
 	    </elem>
 	    {{/combinations}}
 	    {{/unperturbed}}
-	    
+
+	    {{#lambdas}}
 	    {{#operators}}
 	    {{#combinations}}
 	    <elem>
@@ -299,7 +313,9 @@
 	    </elem>
 	    {{/combinations}}
 	    {{/operators}}
+	    {{/lambdas}}
 
+	    {{#lambdas}}
 	    {{#operators}}
 	    {{#combinations}}
 	    <elem>
@@ -308,8 +324,10 @@
 	    </elem>
 	    {{/combinations}}
 	    {{/operators}}
-
+	    {{/lambdas}}
+	    
 	    {{/sink_smearing}}
+
 
 	  </sink_pairs>
 	</NamedObject>
@@ -345,6 +363,7 @@
 	    {{/combinations}}
 	    {{/unperturbed}}
 
+	    {{#lambdas}}
 	    {{#operators}}
 	    {{#combinations}}
 	    <elem>
@@ -353,7 +372,9 @@
 	    </elem>
 	    {{/combinations}}
 	    {{/operators}}
+	    {{/lambdas}}
 
+	    {{#lambdas}}
 	    {{#operators}}
 	    {{#combinations}}
 	    <elem>
@@ -362,7 +383,8 @@
 	    </elem>
 	    {{/combinations}}
 	    {{/operators}}
-
+	    {{/lambdas}}
+	    
 	    {{/sink_smearing}}
 
 	  </sink_pairs>
@@ -373,6 +395,7 @@
       {{/mesons}}
       
       {{#sink_smearing}}
+      {{#lambdas}}
       {{#kappas}}
       {{#operators}}
       <elem>
@@ -384,6 +407,7 @@
       </elem>
       {{/operators}}
       {{/kappas}}
+      {{/lambdas}}
       {{/sink_smearing}}
 
       
