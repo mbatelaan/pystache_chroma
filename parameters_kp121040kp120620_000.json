@@ -1,0 +1,44 @@
+{"kappas" : [{"kappa" : "0.121040"},
+	     {"kappa" : "0.120620"}],
+ "csw" : 2.65,
+ "src_smr" : 30,
+ "sink_smearing" : [
+     {
+	 "sink_type" : "POINT_SINK",
+	 "pt"        : true
+     },
+     {
+	 "sink_type" : "SHELL_SINK",
+	 "smearing"  : {"smintpar" : 30}
+     }
+ ],
+ "momenta" : [{"fh-params" : [{"q" : ["0","0","0"]}],
+               "mom2max" : "0",
+	       "unperturbed" : true,
+	       "lambdas" : [{"lmb_real" : "0.0001", "lmb_imag" : "0"}],
+	       "operators" : [{"op" : [{"opval" : "2", "lambda" : false},
+				       {"opval" : "8", "lambda" : true}
+				      ]
+			      }]
+	      }
+	     ],
+ 
+ "combinations" :[
+     {
+	 "kappa1": "0.121040",
+	 "kappa2": "0.121040"
+     },
+     {
+	 "kappa1": "0.121040",
+	 "kappa2": "0.120620"
+     },
+     {
+	 "kappa1": "0.120620",
+	 "kappa2": "0.121040"
+     }
+
+ ],
+ 
+ "baryons" : true,
+ "mesons"  : true
+}

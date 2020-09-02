@@ -8,8 +8,8 @@ print(conf)
 partials = json.load(open('partials.json','r')) # File with partials for pystache
 parameters = json.load(open(parameterfile,'r')) #parameters_allq.json 
 
-#file = open('input_template.xml.ms', 'r').read()
-file = open('test_input_template.xml.ms', 'r').read() # Input template
+file = open('test_input_template.xml.ms', 'r').read()
+#file = open('input_template_CC.xml.ms', 'r').read() # Input template
 template = pystache.parse(file)
 ms_renderer = pystache.Renderer(partials = partials) # Apply the partials
 def render_ms(template, obj):

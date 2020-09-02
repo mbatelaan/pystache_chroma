@@ -137,8 +137,18 @@
 	  <obsvP>false</obsvP>
 	  <numRetries>1</numRetries>
 	  <FermionAction>
-	    <FermAct>UNPREC_SLRC_FEYNHELL</FermAct>
+	    <FermAct>UNPRECONDITIONED_SLRC</FermAct>
 	    <Kappa>{{kappa}}</Kappa>                    <!-- light mass -->
+	    <clovCoeff>{{csw}}</clovCoeff>
+	    <FermState>
+	      <Name>SLIC_FERM_STATE</Name>
+	      <n_smear>1</n_smear>
+	      <rho>0.1</rho>
+	      <orthog_dir>5</orthog_dir>
+	      <FermionBC>
+		<FermBC>SIMPLE_FERMBC</FermBC>
+		<boundary>1 1 1 -1</boundary>
+	      </FermionBC>
 	    <FeynHellParam>
 	      {{#op}}
 	      {{#fh-params}}
@@ -154,55 +164,24 @@
 	      {{/fh-params}}
 	      {{/op}}
 	    </FeynHellParam>
-	    <clovCoeff>{{csw}}</clovCoeff>
-	    <FermState>
-	      <Name>SLIC_FERM_STATE</Name>
-	      <n_smear>1</n_smear>
-	      <rho>0.1</rho>
-	      <orthog_dir>5</orthog_dir>
-	      <FermionBC>
-		<FermBC>SIMPLE_FERMBC</FermBC>
-		<boundary>1 1 1 -1</boundary>
-	      </FermionBC>
 	    </FermState>
 	  </FermionAction>
-          
-          <InvertParam>
-            <invType>RELIABLE_BICGSTAB_MP_SLRC_FEYNHELL_INVERTER-QCDSF</invType>
-            <MaxIter>10000</MaxIter>
-            <RsdTarget>1e-12</RsdTarget>
-            <Delta>0.01</Delta>
-            <CloverParams>
-              <Kappa>{{kappa}}</Kappa>
-              <clovCoeff>{{csw}}</clovCoeff>
-              <FermState>
-                <Name>SLIC_FERM_STATE</Name>
-                <version>2</version>
-                <n_smear>1</n_smear>
-                <rho>0.1</rho>
-                <smear_in_this_dirP>1 1 1 1</smear_in_this_dirP>
-                <FermionBC>
-                  <FermBC>SIMPLE_FERMBC</FermBC>
-                  <boundary>1 1 1 -1</boundary>
-                </FermionBC>
-              </FermState>
-            </CloverParams>
-            <FeynHellParam>
-	      {{#op}}
-	      {{#fh-params}}
-	      <elem>
-		<LambdaReal>{{#lambda}}{{lmb_real}}{{/lambda}}{{^lambda}}0{{/lambda}}</LambdaReal>
-		<LambdaImag>{{#lambda}}{{lmb_imag}}{{/lambda}}{{^lambda}}0{{/lambda}}</LambdaImag>
-		<Operator>{{opval}}</Operator>
-		<Momentum>{{#q}}{{.}} {{/q}}</Momentum>
-		<Source>[[SX]] [[SY]] [[SZ]] [[ST]]</Source>
-		<NoiseReal>1.0</NoiseReal>
-		<NoiseImag>0.0</NoiseImag>
-	      </elem>
-	      {{/fh-params}}
-	      {{/op}}
-            </FeynHellParam>
+
+	  <InvertParam>
+            <invType>DDS_INVERTER</invType>
+            <Kappa>{{kappa}}</Kappa>
+            <Csw>{{csw}}</Csw>
+            <Nmr>5</Nmr>
+            <Ncy>8</Ncy>
+            <Nkv>18</Nkv>
+            <DeflatedNV>4</DeflatedNV>
+            <BlockSize>XXBLOCKSIZEXX</BlockSize>
+            <RsdDDS>1.0e-12</RsdDDS>
+            <MaxDDS>1000</MaxDDS>
+            <BlkRel>0</BlkRel>
+            <SLRC>1</SLRC>
           </InvertParam>
+	  
 	</Param>
 	<NamedObject>
 	  <gauge_id>default_gauge_field</gauge_id>
@@ -278,8 +257,6 @@
       {{/lambdas}}
 
       {{#baryons}}
-      {{#sink_smearing}}
-      
       <elem>
 	<Name>BARYON_SPECTRUM-QCDSF</Name>
 	<Frequency>1</Frequency>
@@ -296,6 +273,7 @@
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <sink_pairs>
 
+	    {{#sink_smearing}}
 	    {{#unperturbed}}
 	    {{#combinations}}
 	    <elem>
@@ -327,17 +305,17 @@
 	    {{/operators}}
 	    {{/lambdas}}
 	    
+	    {{/sink_smearing}}
+
+
 	  </sink_pairs>
 	</NamedObject>
-	<lime_file>[[TMP_DIR]]/baryon_[[TRAJ]]_0.000{{#fh-params}}_{{#q}}{{.}}{{/q}}{{/fh-params}}{{#pt}}_ptsink{{/pt}}{{#smearing}}_smsnk{{smintpar}}{{/smearing}}.lime</lime_file>
-	<xml_file>[[TMP_DIR]]/baryon_[[TRAJ]]_0.000{{#fh-params}}_{{#q}}{{.}}{{/q}}{{/fh-params}}{{#pt}}_ptsink{{/pt}}{{#smearing}}_smsnk{{smintpar}}{{/smearing}}.xml</xml_file>
+	<lime_file>[[TMP_DIR]]/baryon_[[TRAJ]]_0.000{{#fh-params}}_{{#q}}{{.}}{{/q}}{{/fh-params}}.lime</lime_file>
+	<xml_file>[[TMP_DIR]]/baryon_[[TRAJ]]_0.000{{#fh-params}}_{{#q}}{{.}}{{/q}}{{/fh-params}}.xml</xml_file>
       </elem>
-      {{/sink_smearing}}
       {{/baryons}}
 
       {{#mesons}}
-      {{#sink_smearing}}
-
       <elem>
 	<Name>MESON_SPECTRUM-QCDSF</Name>
 	<Frequency>1</Frequency>
@@ -354,6 +332,7 @@
 	  <gauge_id>default_gauge_field</gauge_id>
 	  <sink_pairs>
 
+	    {{#sink_smearing}}
 	    {{#unperturbed}}
 	    {{#combinations}}
 	    <elem>
@@ -385,12 +364,13 @@
 	    {{/operators}}
 	    {{/lambdas}}
 	    
+	    {{/sink_smearing}}
+
 	  </sink_pairs>
 	</NamedObject>
-	<lime_file>[[TMP_DIR]]/meson_[[TRAJ]]_0.000{{#fh-params}}_{{#q}}{{.}}{{/q}}{{/fh-params}}{{#pt}}_ptsink{{/pt}}{{#smearing}}_smsnk{{smintpar}}{{/smearing}}.lime</lime_file>
-	<xml_file>[[TMP_DIR]]/meson_[[TRAJ]]_0.000{{#fh-params}}_{{#q}}{{.}}{{/q}}{{/fh-params}}{{#pt}}_ptsink{{/pt}}{{#smearing}}_smsnk{{smintpar}}{{/smearing}}.xml</xml_file>
+	<lime_file>[[TMP_DIR]]/meson_[[TRAJ]]_0.000{{#fh-params}}_{{#q}}{{.}}{{/q}}{{/fh-params}}.lime</lime_file>
+	<xml_file>[[TMP_DIR]]/meson_[[TRAJ]]_0.000{{#fh-params}}_{{#q}}{{.}}{{/q}}{{/fh-params}}.xml</xml_file>
       </elem>
-      {{/sink_smearing}}
       {{/mesons}}
       
       {{#sink_smearing}}

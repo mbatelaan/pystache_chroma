@@ -1,0 +1,65 @@
+   <elem>
+      <Name>PROPAGATOR</Name>
+      <Frequency>1</Frequency>
+      <Param>
+        <version>10</version>
+        <quarkSpinType>FULL</quarkSpinType>
+        <obsvP>false</obsvP>
+        <numRetries>1</numRetries>
+        <FermionAction>
+           <FermAct>UNPRECONDITIONED_SLRC</FermAct>
+           <Kappa>XXKAPPALXX</Kappa>                    <!-- light mass -->
+           <clovCoeff>XXCSWXX</clovCoeff>
+           <FermState>
+              <Name>SLIC_FERM_STATE</Name>
+              <n_smear>1</n_smear>
+              <rho>0.1</rho>
+              <orthog_dir>5</orthog_dir>
+              <FermionBC>
+                  <FermBC>SIMPLE_FERMBC</FermBC>
+                  <boundary>1 1 1 -1</boundary>
+              </FermionBC>
+              <FeynHellParam>
+                <elem>
+                  <LambdaReal>0.0</LambdaReal>
+                  <LambdaImag>XXLAMB0XX</LambdaImag>
+                  <Operator>2</Operator>
+                  <Momentum>XXPXXX XXPYXX XXPZXX </Momentum>
+                  <Source>XXSXXX XXSYXX XXSZXX XXSTXX</Source>
+                  <NoiseReal>1.0</NoiseReal>
+                  <NoiseImag>0.0</NoiseImag>
+                        </elem>
+                                <elem>
+                  <LambdaReal>0.0</LambdaReal>
+                  <LambdaImag>XXLAMB0XX</LambdaImag>
+                  <Operator>2</Operator>
+                  <Momentum>-XXPXXX -XXPYXX -XXPZXX </Momentum>
+                  <Source>XXSXXX XXSYXX XXSZXX XXSTXX</Source>
+                  <NoiseReal>1.0</NoiseReal>
+                  <NoiseImag>0.0</NoiseImag>
+                        </elem>
+              </FeynHellParam>
+           </FermState>
+        </FermionAction>
+	
+        <InvertParam>
+          <invType>DDS_INVERTER</invType>
+          <Kappa>XXKAPPALXX</Kappa>
+          <Csw>XXCSWXX</Csw>
+          <Nmr>5</Nmr>
+          <Ncy>8</Ncy>
+          <Nkv>18</Nkv>
+          <DeflatedNV>4</DeflatedNV>
+          <BlockSize>XXDDSSIZEXX</BlockSize>
+          <RsdDDS>1.0e-12</RsdDDS>
+          <MaxDDS>1000</MaxDDS>
+            <BlkRel>0</BlkRel>
+              <SLRC>1</SLRC>
+        </InvertParam>
+      </Param>
+      <NamedObject>
+        <gauge_id>default_gauge_field</gauge_id>
+        <source_id>sh_source_1</source_id>
+        <prop_id>sh_prop_XXKAPPALXX_XXLAMB0XX</prop_id>
+      </NamedObject>
+    </elem>
