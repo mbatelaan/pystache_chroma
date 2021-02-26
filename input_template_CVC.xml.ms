@@ -127,7 +127,7 @@
       {{#lambdas}}
       {{#kappas}}
       {{#operators}}
-      <!-- Propagator for q=[{{#fh-params}}({{#q}}{{.}} {{/q}}) {{/fh-params}}], kappa={{kappa}}, {{#op}}lambda_g{{opval}}={{#lambda}}{{lmb_real}}{{/lambda}}{{^lambda}}0{{/lambda}}, {{/op}} -->
+      <!-- Propagator for q=[{{#fh-params}}({{#q}}{{.}} {{/q}}) {{/fh-params}}], kappa={{kappa}}, {{#op}}lambda_cv{{opval}}={{#lambda}}{{lmb_imag}}{{/lambda}}{{^lambda}}0{{/lambda}}, {{/op}} -->
       <elem>
 	<Name>PROPAGATOR</Name>
 	<Frequency>1</Frequency>

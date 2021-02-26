@@ -18,8 +18,8 @@
 			     ],
                "mom2max" : "14",
                "unperturbed" : true,
-	       "lambdas" : [{"lmb_real" : "0.0001", "lmb_imag" : "0"},
-			    {"lmb_real" : "0.001", "lmb_imag" : "0", "prior" : {"prior_lam" : "0.0001", "factor" : "10"}}
+	       "lambdas" : [{"lmb_real" : "0", "lmb_imag" : "0.0001"},
+			    {"lmb_real" : "0", "lmb_imag" : "0.001", "prior" : {"prior_lam" : "0.0001", "factor" : "10"}}
 			   ],
 	       "operators" : [{"op" : [{"opval" : "1", "lambda" : true},
 				       {"opval" : "3", "lambda" : false}
@@ -35,7 +35,8 @@
                               {"q" : ["-6","0","0"]}
 			     ],
                "mom2max" : "9",
-	       "lambdas" : [{"lmb_real" : "0.0001", "lmb_imag" : "0"}],
+	       "unperturbed" : true,
+	       "lambdas" : [{"lmb_real" : "0", "lmb_imag" : "0.0001"}],
 	       "operators" : [{"op" : [{"opval" : "1", "lambda" : true},
 				       {"opval" : "3", "lambda" : false}
 				      ]
@@ -50,7 +51,8 @@
                               {"q" : ["-4","-4","-2"]}
 			     ],
                "mom2max" : "9",
-	       "lambdas" : [{"lmb_real" : "0.0001", "lmb_imag" : "0"}],
+	       "unperturbed" : true,
+	       "lambdas" : [{"lmb_real" : "0", "lmb_imag" : "0.0001"}],
 	       "operators" : [{"op" : [{"opval" : "1", "lambda" : true},
 				       {"opval" : "3", "lambda" : false}
 				      ]
@@ -65,7 +67,8 @@
                               {"q" : ["-4","-2","-2"]}
 			     ],
                "mom2max" : "6",
-	       "lambdas" : [{"lmb_real" : "0.0001", "lmb_imag" : "0"}],
+	       "unperturbed" : true,
+	       "lambdas" : [{"lmb_real" : "0", "lmb_imag" : "0.0001"}],
 	       "operators" : [{"op" : [{"opval" : "1", "lambda" : true},
 				       {"opval" : "3", "lambda" : false}
 				      ]
@@ -80,7 +83,8 @@
                               {"q" : ["-2","-2","0"]}
 			     ],
                "mom2max" : "2",
-	       "lambdas" : [{"lmb_real" : "0.0001", "lmb_imag" : "0"}],
+	       "unperturbed" : true,
+	       "lambdas" : [{"lmb_real" : "0", "lmb_imag" : "0.0001"}],
 	       "operators" : [{"op" : [{"opval" : "1", "lambda" : true},
 				       {"opval" : "3", "lambda" : false}
 				      ]
@@ -95,8 +99,9 @@
 			      {"q" : ["0","0","0"]}
 			     ],
                "mom2max" : "0",
-	       "lambdas" : [{"lmb_real" : "0.0001", "lmb_imag" : "0"},
-			    {"lmb_real" : "0.001", "lmb_imag" : "0", "prior" : {"prior_lam" : "0.0001", "factor" : "10"}}
+	       "unperturbed" : true,
+	       "lambdas" : [{"lmb_real" : "0", "lmb_imag" : "0.0001"},
+			    {"lmb_real" : "0", "lmb_imag" : "0.001", "prior" : {"prior_lam" : "0.0001", "factor" : "10"}}
 			   ],
 	       "operators" : [{"op" : [{"opval" : "1", "lambda" : false},
 				       {"opval" : "3", "lambda" : true}
