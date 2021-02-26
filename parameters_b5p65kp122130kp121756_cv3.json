@@ -1,0 +1,27 @@
+{"kappas" : [{"kappa" : "0.122130"}],
+ "csw" : 2.48,
+ "beta" : 5.65,
+ "src_smr" : 30,
+ "sink_smearing" : [
+     {
+	 "sink_type" : "SHELL_SINK",
+	 "smearing"  : {"smintpar" : 30}
+     }
+ ],
+ "momenta" : [{"fh-params" : [{"q" : ["0","0","0"]}],
+               "mom2max" : "0",
+	       "unperturbed" : true,
+	       "lambdas" : [{"lmb_real" : "0", "lmb_imag" : "0.0001"}],
+	       "operators" : [{"op" : [{"opval" : "3", "lambda" : true}
+				      ]
+			      }]
+	      }
+	     ],
+ "combinations" :[
+     {
+	 "kappa1": "0.122130",
+	 "kappa2": "0.122130"
+     }
+ ],
+ "baryons" : true
+}

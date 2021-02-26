@@ -1,0 +1,10 @@
+{"prop_id"         : "{{#fh-params}}fh_{{/fh-params}}prop_{{kappa}}{{>fh_params}}"
+ , "prior_id"      : "{{#fh-params}}fh_{{/fh-params}}prop_{{kappa}}{{>fh_params_prior}}"
+ , "comb_id1"      : "prop_{{kappa1}}"
+ , "comb_id2"      : "prop_{{kappa2}}"
+ , "comb_pert_id1" : "{{#fh-params}}fh_{{/fh-params}}prop_{{kappa1}}{{>fh_params}}"
+ , "comb_pert_id2" : "{{#fh-params}}fh_{{/fh-params}}prop_{{kappa2}}{{>fh_params}}"
+ , "fh_params"     : "{{#fh-params}}{{#op}}_{{#lambda}}{{lmb_imag}}{{/lambda}}{{^lambda}}0{{/lambda}}_g{{opval}}_{{#q}}{{.}}{{/q}}{{/op}}{{/fh-params}}"
+ , "fh_params_prior" : "{{#fh-params}}{{#op}}_{{#lambda}}{{prior_lam}}{{/lambda}}{{^lambda}}0{{/lambda}}_g{{opval}}_{{#q}}{{.}}{{/q}}{{/op}}{{/fh-params}}" 
+}
+

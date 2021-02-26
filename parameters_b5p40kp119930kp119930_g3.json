@@ -1,0 +1,66 @@
+{"kappas" : [{"kappa" : "0.119930"}],
+ "csw" : 2.79,
+ "beta" : "5.40",
+ "src_smr" : 30,
+ "sink_smearing" : [
+     {
+	 "sink_type" : "POINT_SINK",
+	 "pt"        : true
+     },
+     {
+	 "sink_type" : "SHELL_SINK",
+	 "smearing"  : {"smintpar" : 30}
+     }
+ ],
+ "momenta" : [{"fh-params" : [{"q" : ["4","4","0"]},
+                              {"q" : ["-4","-4","0"]}
+			     ],
+               "mom2max" : "8",
+               "unperturbed" : true,
+	       "lambdas" : [{"lmb_real" : "0.0001", "lmb_imag" : "0"}],
+	       "operators" : [{"op" : [{"opval" : "4", "lambda" : true}]
+			      }]
+	      },
+	      
+              {"fh-params" : [{"q" : ["4","2","0"]},
+                              {"q" : ["-4","-2","0"]}
+			     ],
+               "mom2max" : "5",
+               "unperturbed" : true,
+	       "lambdas" : [{"lmb_real" : "0.0001", "lmb_imag" : "0"}],
+	       "operators" : [{"op" : [{"opval" : "4", "lambda" : true}]
+			      }]
+	      },
+	      
+              {"fh-params" : [{"q" : ["2","2","2"]},
+                              {"q" : ["-2","-2","-2"]}
+			     ],
+               "mom2max" : "3",
+               "unperturbed" : true,
+	       "lambdas" : [{"lmb_real" : "0.0001", "lmb_imag" : "0"}],
+	       "operators" : [{"op" : [{"opval" : "4", "lambda" : true}]
+			      }]
+	      },
+	      
+              {"fh-params" : [{"q" : ["2","0","0"]},
+                              {"q" : ["-2","0","0"]}
+			     ],
+               "mom2max" : "1",
+               "unperturbed" : true,
+	       "lambdas" : [{"lmb_real" : "0.0001", "lmb_imag" : "0"}],
+	       "operators" : [{"op" : [{"opval" : "4", "lambda" : true}]
+			      }]
+	      }
+	     ],
+ 
+ "combinations" :[
+     {
+	 "kappa1": "0.119930",
+	 "kappa2": "0.119930"
+     }
+
+ ],
+ 
+ "baryons" : true,
+ "mesons"  : false
+}

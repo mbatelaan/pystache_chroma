@@ -2,12 +2,16 @@ import sys
 import pystache
 import json
 
-parameterfile = sys.argv[1] # file containing the pystache parameters
+parameterfile = sys.argv[1] # json file containing the pystache parameters
 
+#Select the desired template files
+#local current templates:
+partials = json.load(open('partials.json','r')) # File with partials for pystache
+file = open('test_input_template.xml.ms', 'r').read()
 #CVC partial:
 #partials = json.load(open('partials_CVC.json','r')) # File with partials for pystache
-#local current partial
-partials = json.load(open('partials.json','r')) # File with partials for pystache
+#file = open('input_template_CVC.xml.ms', 'r').read() # Input template
+
 
 parameters = json.load(open(parameterfile,'r')) #parameters_allq.json 
 print(parameters['kappas'][0]['kappa'])
@@ -26,12 +30,6 @@ if 'beta' in parameters:
     outname = betastr + outname
 outname = 'chromatemplate_' + outname + '.xml'
 print(outname)
-
-# local current template
-file = open('test_input_template.xml.ms', 'r').read()
-
-#CVC input template
-#file = open('input_template_CVC.xml.ms', 'r').read() # Input template
 
 template = pystache.parse(file)
 ms_renderer = pystache.Renderer(partials = partials) # Apply the partials
