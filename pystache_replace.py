@@ -2,17 +2,21 @@ import sys
 import pystache
 import json
 
-parameterfile = sys.argv[1]  # json file containing the pystache parameters
+def render_ms(template, obj):
+    return ms_renderer.render(template, obj)
 
-# Select the desired template files
-# local current templates:
+# json file containing the pystache parameters
+parameterfile = sys.argv[1]
+
+# Select the desired partials & template files
+# Partials are evaluated first, before all the other parameters
 partials = json.load(open("partials.json", "r"))  # File with partials for pystache
 file = open("test_input_template.xml.ms", "r").read()
-# CVC partial:
+# Conserved Vector Current partials & template:
 # partials = json.load(open('partials_CVC.json','r')) # File with partials for pystache
 # file = open('input_template_CVC.xml.ms', 'r').read() # Input template
 
-
+# Read the parameters file and print kappa as check
 parameters = json.load(open(parameterfile, "r"))  # parameters_allq.json
 print(parameters["kappas"][0]["kappa"])
 
@@ -41,14 +45,9 @@ if "beta" in parameters:
 outname = "chromatemplate_" + outname + ".xml"
 print(outname)
 
+# Run pystache to replace the templates with their values and save to the output file
 template = pystache.parse(file)
 ms_renderer = pystache.Renderer(partials=partials)  # Apply the partials
-
-
-def render_ms(template, obj):
-    return ms_renderer.render(template, obj)
-
-
 open(outname, "w+").write(
     render_ms(template, parameters).replace("[[", "{{").replace("]]", "}}")
 )
