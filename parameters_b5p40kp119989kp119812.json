@@ -1,5 +1,5 @@
-{"kappas" : [{"kappa" : "0.120048"},
-	     {"kappa" : "0.119695"}],
+{"kappas" : [{"kappa" : "0.119989"},
+	     {"kappa" : "0.119812"}],
  "csw" : 2.79,
  "beta" : "5.40",
  "src_smr" : 30,
@@ -11,7 +11,12 @@
      {
 	 "sink_type" : "SHELL_SINK",
 	 "smearing"  : {"smintpar" : 30}
+     },
+     {
+	 "sink_type" : "SHELL_SINK",
+	 "smearing"  : {"smintpar" : 60}
      }
+
  ],
  "momenta" : [{"fh-params" : [{"q" : ["4","4","0"]},
                               {"q" : ["-4","-4","0"]}
@@ -90,20 +95,20 @@
  
  "combinations" :[
      {
-	 "kappa1": "0.120048",
-	 "kappa2": "0.119695"
+	 "kappa1": "0.119989",
+	 "kappa2": "0.119812"
      },
      {
-	 "kappa1": "0.120048",
-	 "kappa2": "0.120048"
+	 "kappa1": "0.119989",
+	 "kappa2": "0.119989"
      },
      {
-	 "kappa1": "0.119695",
-	 "kappa2": "0.120048"
+	 "kappa1": "0.119812",
+	 "kappa2": "0.119989"
      },
      {
-	 "kappa1": "0.119695",
-	 "kappa2": "0.119695"
+	 "kappa1": "0.119812",
+	 "kappa2": "0.119812"
      }
 
  ],

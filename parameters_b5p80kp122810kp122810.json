@@ -1,7 +1,6 @@
-{"kappas" : [{"kappa" : "0.120048"},
-	     {"kappa" : "0.119695"}],
- "csw" : 2.79,
- "beta" : "5.40",
+{"kappas" : [{"kappa" : "0.122810"}],
+ "csw" : 2.34,
+ "beta" : "5.80",
  "src_smr" : 30,
  "sink_smearing" : [
      {
@@ -13,11 +12,28 @@
 	 "smearing"  : {"smintpar" : 30}
      }
  ],
- "momenta" : [{"fh-params" : [{"q" : ["4","4","0"]},
-                              {"q" : ["-4","-4","0"]}
+ "momenta" : [{"fh-params" : [{"q" : ["6","4","2"]},
+                              {"q" : ["-6","-4","-2"]}
 			     ],
-               "mom2max" : "8",
+               "mom2max" : "14",
                "unperturbed" : true,
+	       "lambdas" : [{"lmb_real" : "0.0001", "lmb_imag" : "0"},
+			    {"lmb_real" : "0.001", "lmb_imag" : "0", "prior" : {"prior_lam" : "0.0001", "factor" : "10"}}
+			   ],
+	       "operators" : [{"op" : [{"opval" : "2", "lambda" : true},
+				       {"opval" : "8", "lambda" : false}
+				      ]
+			      },
+			      {"op" : [{"opval" : "2", "lambda" : false},
+				       {"opval" : "8", "lambda" : true}
+				      ]
+			      }]
+	      },
+	      
+              {"fh-params" : [{"q" : ["6","0","0"]},
+                              {"q" : ["-6","0","0"]}
+			     ],
+               "mom2max" : "9",
 	       "lambdas" : [{"lmb_real" : "0.0001", "lmb_imag" : "0"}],
 	       "operators" : [{"op" : [{"opval" : "2", "lambda" : true},
 				       {"opval" : "8", "lambda" : false}
@@ -29,11 +45,10 @@
 			      }]
 	      },
 	      
-              {"fh-params" : [{"q" : ["4","2","0"]},
-                              {"q" : ["-4","-2","0"]}
+              {"fh-params" : [{"q" : ["4","4","2"]},
+                              {"q" : ["-4","-4","-2"]}
 			     ],
-               "mom2max" : "5",
-               "unperturbed" : true,
+               "mom2max" : "9",
 	       "lambdas" : [{"lmb_real" : "0.0001", "lmb_imag" : "0"}],
 	       "operators" : [{"op" : [{"opval" : "2", "lambda" : true},
 				       {"opval" : "8", "lambda" : false}
@@ -45,11 +60,10 @@
 			      }]
 	      },
 	      
-              {"fh-params" : [{"q" : ["2","2","2"]},
-                              {"q" : ["-2","-2","-2"]}
+              {"fh-params" : [{"q" : ["4","2","2"]},
+                              {"q" : ["-4","-2","-2"]}
 			     ],
-               "mom2max" : "3",
-               "unperturbed" : true,
+               "mom2max" : "6",
 	       "lambdas" : [{"lmb_real" : "0.0001", "lmb_imag" : "0"}],
 	       "operators" : [{"op" : [{"opval" : "2", "lambda" : true},
 				       {"opval" : "8", "lambda" : false}
@@ -61,11 +75,10 @@
 			      }]
 	      },
 	      
-              {"fh-params" : [{"q" : ["2","0","0"]},
-                              {"q" : ["-2","0","0"]}
+              {"fh-params" : [{"q" : ["2","2","0"]},
+                              {"q" : ["-2","-2","0"]}
 			     ],
-               "mom2max" : "1",
-               "unperturbed" : true,
+               "mom2max" : "2",
 	       "lambdas" : [{"lmb_real" : "0.0001", "lmb_imag" : "0"}],
 	       "operators" : [{"op" : [{"opval" : "2", "lambda" : true},
 				       {"opval" : "8", "lambda" : false}
@@ -77,10 +90,13 @@
 			      }]
 	      },
 	      
-              {"fh-params" : [{"q" : ["0","0","0"]}],
+              {"fh-params" : [{"q" : ["0","0","0"]},
+			      {"q" : ["0","0","0"]}
+			     ],
                "mom2max" : "0",
-               "unperturbed" : true,
-	       "lambdas" : [{"lmb_real" : "0.0001", "lmb_imag" : "0"}],
+	       "lambdas" : [{"lmb_real" : "0.0001", "lmb_imag" : "0"},
+			    {"lmb_real" : "0.001", "lmb_imag" : "0", "prior" : {"prior_lam" : "0.0001", "factor" : "10"}}
+			   ],
 	       "operators" : [{"op" : [{"opval" : "2", "lambda" : false},
 				       {"opval" : "8", "lambda" : true}
 				      ]
@@ -90,22 +106,9 @@
  
  "combinations" :[
      {
-	 "kappa1": "0.120048",
-	 "kappa2": "0.119695"
-     },
-     {
-	 "kappa1": "0.120048",
-	 "kappa2": "0.120048"
-     },
-     {
-	 "kappa1": "0.119695",
-	 "kappa2": "0.120048"
-     },
-     {
-	 "kappa1": "0.119695",
-	 "kappa2": "0.119695"
+	 "kappa1" : "0.122810",
+	 "kappa2" : "0.122810"
      }
-
  ],
  
  "baryons" : true,
